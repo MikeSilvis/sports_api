@@ -6,11 +6,13 @@ module SportsApi::Fetcher
   module ESPN
     module Api
       def get(league_string, league, date)
-        response = Http.get("http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=#{date}")
+        day = date.to_s.gsub(/[^\d]+/, '')
+        url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=#{day}"
+        response = Http.get(url)
         if response.status == 200
           JSON.parse(response.body)
         else
-          raise ArgumentError, error_message(url, path)
+          raise ArgumentError, "invalid URL: #{url}"
         end
       end
     end
@@ -31,6 +33,10 @@ module SportsApi::Fetcher
         else
           raise ArgumentError, error_message(url, path)
         end
+      end
+
+      def error_message(url, path)
+        "The url #{url} from the path #{path} did not return a valid page."
       end
     end
   end

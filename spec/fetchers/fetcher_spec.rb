@@ -16,12 +16,12 @@ describe SportsApi::Fetcher do
       let(:league_string) { 'football' }
       let(:league) { SportsApi::NFL }
       let(:date) { Date.today }
-      let(:expected_url) { "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=#{date}" }
+      let(:expected_url) { "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=20150809" }
       before do
         expect(response).to receive(:body).and_return({name: 'Mike Silvis'}.to_json)
         expect(Faraday).to receive(:get).with(expected_url, {timeout: 10}).and_return(response)
       end
-      it { expect(DummyApiClass.new.get(league_string, league, date)['name']).to eq('Mike Silvis') }
+      it { expect(DummyApiClass.new.get(league_string, league, '20150809')['name']).to eq('Mike Silvis') }
     end
     context 'scraper class' do
       before do
