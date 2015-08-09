@@ -1,0 +1,3 @@
+module SportsApi::Model
+
+end
