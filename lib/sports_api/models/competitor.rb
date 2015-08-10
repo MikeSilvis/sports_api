@@ -7,5 +7,6 @@ class SportsApi::Model::Competitor
                 :name,
                 :location,
                 :abbreviation,
-                :record
+                :record,
+                :id
 end

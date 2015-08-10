@@ -72,6 +72,7 @@ module SportsApi::Fetcher::Score::ApiParser
         competitor.name = competitor_json['team']['displayName']
         competitor.abbreviation = competitor_json['team']['abbreviation']
         competitor.location = competitor_json['team']['location']
+        competitor.id = competitor_json['team']['id']
 
         competitor.record = generate_record((competitor_json['records'] || []).first)
       end
