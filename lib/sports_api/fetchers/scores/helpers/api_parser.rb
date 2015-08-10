@@ -15,7 +15,29 @@ module SportsApi::Fetcher::Score::ApiParser
   end
 
   def generate_calendar(calendar_json)
+    raise 'To be overriden'
+  end
+
+  def generate_calendar_day(calendar_json)
     calendar_json.map { |date| Date.parse(date) }
+  end
+
+  def generate_calendar_list(calendar_json)
+    calendar_json.map do |category_json|
+      next unless category_json['entries']
+
+      category_json['entries'].map do |schedule_json|
+        SportsApi::Model::Schedule::List.new.tap do |schedule|
+          schedule.category = category_json['label']
+
+          schedule.label = schedule_json['label']
+          schedule.detail = schedule_json['detail']
+          schedule.value = schedule_json['value']
+          schedule.start_date = Date.parse(schedule_json['startDate'])
+          schedule.end_date = Date.parse(schedule_json['endDate'])
+        end
+      end
+    end.flatten
   end
 
   def generate_events
