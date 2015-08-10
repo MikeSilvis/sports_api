@@ -7,7 +7,8 @@ class SportsApi::Model::League
   attr_accessor :name,
                 :abbreviation,
                 :calendar_type,
-                :calendar
+                :calendar,
+                :events
 
   def calendar=(dates)
     @calendar ||= SportsApi::Model::Schedule::Day.new(dates)
