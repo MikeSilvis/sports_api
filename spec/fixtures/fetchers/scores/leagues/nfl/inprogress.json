@@ -1,0 +1,786 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "calendarType": "list",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "detail": "Aug 05 - Aug 11",
+              "value": "1",
+              "startDate": "2015-08-05T07:00Z",
+              "endDate": "2015-08-11T07:00Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "detail": "Aug 12 - Aug 18",
+              "value": "2",
+              "startDate": "2015-08-12T07:00Z",
+              "endDate": "2015-08-18T07:00Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "detail": "Aug 19 - Aug 25",
+              "value": "3",
+              "startDate": "2015-08-19T07:00Z",
+              "endDate": "2015-08-25T07:00Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "detail": "Aug 26 - Sep 01",
+              "value": "4",
+              "startDate": "2015-08-26T07:00Z",
+              "endDate": "2015-09-02T06:59Z"
+            },
+            {
+              "label": "Preseason Week 4",
+              "detail": "Sep 02 - Sep 08",
+              "value": "5",
+              "startDate": "2015-09-02T07:00Z",
+              "endDate": "2015-09-09T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "entries": [
+            {
+              "label": "Week 1",
+              "detail": "Sep 09 - Sep 15",
+              "value": "1",
+              "startDate": "2015-09-09T07:00Z",
+              "endDate": "2015-09-15T07:00Z"
+            },
+            {
+              "label": "Week 2",
+              "detail": "Sep 16 - Sep 22",
+              "value": "2",
+              "startDate": "2015-09-16T07:00Z",
+              "endDate": "2015-09-22T07:00Z"
+            },
+            {
+              "label": "Week 3",
+              "detail": "Sep 23 - Sep 29",
+              "value": "3",
+              "startDate": "2015-09-23T07:00Z",
+              "endDate": "2015-09-29T07:00Z"
+            },
+            {
+              "label": "Week 4",
+              "detail": "Sep 30 - Oct 06",
+              "value": "4",
+              "startDate": "2015-09-30T07:00Z",
+              "endDate": "2015-10-06T07:00Z"
+            },
+            {
+              "label": "Week 5",
+              "detail": "Oct 07 - Oct 13",
+              "value": "5",
+              "startDate": "2015-10-07T07:00Z",
+              "endDate": "2015-10-13T07:00Z"
+            },
+            {
+              "label": "Week 6",
+              "detail": "Oct 14 - Oct 20",
+              "value": "6",
+              "startDate": "2015-10-14T07:00Z",
+              "endDate": "2015-10-20T07:00Z"
+            },
+            {
+              "label": "Week 7",
+              "detail": "Oct 21 - Oct 27",
+              "value": "7",
+              "startDate": "2015-10-21T07:00Z",
+              "endDate": "2015-10-27T07:00Z"
+            },
+            {
+              "label": "Week 8",
+              "detail": "Oct 28 - Nov 03",
+              "value": "8",
+              "startDate": "2015-10-28T07:00Z",
+              "endDate": "2015-11-03T08:00Z"
+            },
+            {
+              "label": "Week 9",
+              "detail": "Nov 04 - Nov 10",
+              "value": "9",
+              "startDate": "2015-11-04T08:00Z",
+              "endDate": "2015-11-10T08:00Z"
+            },
+            {
+              "label": "Week 10",
+              "detail": "Nov 11 - Nov 17",
+              "value": "10",
+              "startDate": "2015-11-11T08:00Z",
+              "endDate": "2015-11-17T08:00Z"
+            },
+            {
+              "label": "Week 11",
+              "detail": "Nov 18 - Nov 24",
+              "value": "11",
+              "startDate": "2015-11-18T08:00Z",
+              "endDate": "2015-11-24T08:00Z"
+            },
+            {
+              "label": "Week 12",
+              "detail": "Nov 25 - Dec 01",
+              "value": "12",
+              "startDate": "2015-11-25T08:00Z",
+              "endDate": "2015-12-01T08:00Z"
+            },
+            {
+              "label": "Week 13",
+              "detail": "Dec 02 - Dec 08",
+              "value": "13",
+              "startDate": "2015-12-02T08:00Z",
+              "endDate": "2015-12-08T08:00Z"
+            },
+            {
+              "label": "Week 14",
+              "detail": "Dec 09 - Dec 15",
+              "value": "14",
+              "startDate": "2015-12-09T08:00Z",
+              "endDate": "2015-12-15T08:00Z"
+            },
+            {
+              "label": "Week 15",
+              "detail": "Dec 16 - Dec 22",
+              "value": "15",
+              "startDate": "2015-12-16T08:00Z",
+              "endDate": "2015-12-22T08:00Z"
+            },
+            {
+              "label": "Week 16",
+              "detail": "Dec 23 - Dec 29",
+              "value": "16",
+              "startDate": "2015-12-23T08:00Z",
+              "endDate": "2015-12-29T08:00Z"
+            },
+            {
+              "label": "Week 17",
+              "detail": "Dec 30 - Jan 05",
+              "value": "17",
+              "startDate": "2015-12-30T08:00Z",
+              "endDate": "2016-01-05T08:00Z"
+            }
+          ]
+        },
+        {
+          "label": "Post Season",
+          "value": "3",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "detail": "Jan 06 - Jan 12",
+              "value": "1",
+              "startDate": "2016-01-06T08:00Z",
+              "endDate": "2016-01-12T08:00Z"
+            },
+            {
+              "label": "Divisional Round",
+              "detail": "Jan 13 - Jan 19",
+              "value": "2",
+              "startDate": "2016-01-13T08:00Z",
+              "endDate": "2016-01-19T08:00Z"
+            },
+            {
+              "label": "Conference Championships",
+              "detail": "Jan 20 - Jan 26",
+              "value": "3",
+              "startDate": "2016-01-20T08:00Z",
+              "endDate": "2016-01-26T08:00Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "detail": "Jan 27 - Feb 02",
+              "value": "4",
+              "startDate": "2016-01-27T08:00Z",
+              "endDate": "2016-02-02T08:00Z"
+            },
+            {
+              "label": "Super Bowl",
+              "detail": "Feb 03 - Feb 09",
+              "value": "5",
+              "startDate": "2016-02-03T08:00Z",
+              "endDate": "2016-02-09T08:00Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "week": {
+    "number": 1
+  },
+  "season": {
+    "type": 1,
+    "year": 2015
+  },
+  "events": [
+    {
+      "id": "400761517",
+      "uid": "s:20~l:28~e:400761517",
+      "date": "2015-08-10T00:00Z",
+      "season": {
+        "year": 2015,
+        "type": 1
+      },
+      "competitions": [
+        {
+          "id": "400761517",
+          "uid": "s:20~l:28~e:400761517~c:400761517",
+          "date": "2015-08-10T00:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": true,
+          "conferenceCompetition": false,
+          "competitors": [
+            {
+              "id": "16",
+              "uid": "s:20~l:28~t:16",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "16",
+                "uid": "s:20~l:28~t:16",
+                "location": "Minnesota",
+                "name": "Vikings",
+                "abbreviation": "MIN",
+                "displayName": "Minnesota Vikings",
+                "shortDisplayName": "Vikings",
+                "color": "240A67",
+                "isActive": true,
+                "venue": {
+                  "id": "16"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/min",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/min",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/min",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/min",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/min",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/min",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/min",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501576",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+              },
+              "score": "7",
+              "linescores": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 7
+                },
+                {
+                  "value": 0
+                }
+              ],
+              "statistics": [ ],
+              "winner": null,
+              "records": [
+                {
+                  "name": "TOTAL",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "uid": "s:20~l:28~t:23",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "23",
+                "uid": "s:20~l:28~t:23",
+                "location": "Pittsburgh",
+                "name": "Steelers",
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "shortDisplayName": "Steelers",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3752"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/pit",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/pit",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/pit",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/pit",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/pit",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/pit",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/pit",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501656",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+              },
+              "score": "3",
+              "linescores": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 3
+                },
+                {
+                  "value": 0
+                }
+              ],
+              "statistics": [ ],
+              "winner": null,
+              "records": [
+                {
+                  "name": "TOTAL",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "type": "event",
+              "headline": "HALL OF FAME GAME"
+            }
+          ],
+          "status": {
+            "displayClock": "6:46",
+            "period": 3,
+            "type": {
+              "id": "2",
+              "state": "in",
+              "description": "In Progress",
+              "detail": "6:46 - 3rd Quarter",
+              "shortDetail": "6:46 - 3rd"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "NBC"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "4 REC, 51 YDS, 1 TD",
+                  "value": 51,
+                  "athlete": {
+                    "displayName": "MyCole Pruitt",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/2508256"
+                      }
+                    ],
+                    "position": {
+                      "abbreviation": "TE"
+                    },
+                    "team": {
+                      "id": "16"
+                    },
+                    "headshot": null
+                  },
+                  "team": {
+                    "id": "16"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "6 CAR, 30 YDS",
+                  "value": 30,
+                  "athlete": {
+                    "displayName": "Matt Asiata",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/14360"
+                      }
+                    ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/14360.png",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "16"
+                    }
+                  },
+                  "team": {
+                    "id": "16"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "passingYards",
+              "displayName": "Passing Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "10-20, 102 YDS",
+                  "value": 102,
+                  "athlete": {
+                    "displayName": "Landry Jones",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/15904"
+                      }
+                    ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/15904.png",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "23"
+                    }
+                  },
+                  "team": {
+                    "id": "23"
+                  }
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-08-10T00:00Z",
+          "situation": {
+            "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/events/400761517/competitions/400761517/situation",
+            "lastPlay": {
+              "type": {
+                "id": "52",
+                "text": "Punt",
+                "abbreviation": "U"
+              },
+              "text": "Jeff Locke punt for 41 yds, fair catch by Kenzel Doe at the PIT 13",
+              "scoreValue": 0,
+              "team": {
+                "id": "23"
+              },
+              "drive": {
+                "description": "5 plays, 20 yards, 3:32",
+                "start": {
+                  "yardLine": 26,
+                  "text": "MIN 26"
+                },
+                "end": {
+                  "yardLine": 46,
+                  "text": "MIN 46"
+                },
+                "timeElapsed": {
+                  "displayValue": "3:32"
+                },
+                "result": "PUNT"
+              },
+              "start": {
+                "yardLine": 46,
+                "team": {
+                  "id": "16"
+                }
+              },
+              "end": {
+                "yardLine": 87,
+                "team": {
+                  "id": "23"
+                }
+              },
+              "statYardage": 0
+            },
+            "down": 1,
+            "yardLine": 87,
+            "distance": 10,
+            "downDistanceText": "1st and 10 at PIT 13",
+            "isRedZone": false,
+            "homeTimeouts": 3,
+            "awayTimeouts": 3,
+            "possession": "23"
+          }
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "live",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400761517",
+          "text": "Live",
+          "shortText": "Live",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/boxscore?gameId=400761517",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/gamecast?gameId=400761517",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/playbyplay?gameId=400761517",
+          "text": "Play-by-Play",
+          "shortText": "PBP",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pickcenter",
+            "desktop"
+          ],
+          "href": "http://insider.espn.go.com/insider/pickcenter/nfl/game?gameid=400761517",
+          "text": "PickCenter",
+          "shortText": "PickCenter",
+          "isExternal": false,
+          "isPremium": true
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400761517",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "weather": {
+        "conditions": "partly-cloudy",
+        "temperature": 77
+      },
+      "status": {
+        "displayClock": "6:46",
+        "period": 3,
+        "type": {
+          "id": "2",
+          "state": "in",
+          "description": "In Progress",
+          "detail": "6:46 - 3rd Quarter",
+          "shortDetail": "6:46 - 3rd"
+        }
+      }
+    }
+  ]
+}

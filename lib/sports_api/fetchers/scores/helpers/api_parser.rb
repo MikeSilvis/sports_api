@@ -7,11 +7,15 @@ module SportsApi::Fetcher::Score::ApiParser
       league.name = league_json['name']
       league.abbreviation = league_json['abbreviation']
       league.calendar_type = league_json['calendarType']
-      league.calendar = league_json['calendar'].map { |date| Date.parse(date) }
+      league.calendar = generate_calendar(league_json['calendar'])
 
       ## Build Event
       league.events = generate_events
     end
+  end
+
+  def generate_calendar(calendar_json)
+    calendar_json.map { |date| Date.parse(date) }
   end
 
   def generate_events
@@ -47,12 +51,14 @@ module SportsApi::Fetcher::Score::ApiParser
         competitor.abbreviation = competitor_json['team']['abbreviation']
         competitor.location = competitor_json['team']['location']
 
-        competitor.record = generate_record(competitor_json['records'].first)
+        competitor.record = generate_record((competitor_json['records'] || []).first)
       end
     end
   end
 
   def generate_record(record_json)
+    record_json = record_json || {}
+
     SportsApi::Model::Record.new.tap do |record|
       record.name = record_json['name']
       record.summary = record_json['summary']

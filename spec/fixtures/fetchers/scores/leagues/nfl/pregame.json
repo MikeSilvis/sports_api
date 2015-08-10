@@ -1,0 +1,5377 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "calendarType": "list",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "detail": "Aug 05 - Aug 11",
+              "value": "1",
+              "startDate": "2015-08-05T07:00Z",
+              "endDate": "2015-08-11T07:00Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "detail": "Aug 12 - Aug 18",
+              "value": "2",
+              "startDate": "2015-08-12T07:00Z",
+              "endDate": "2015-08-18T07:00Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "detail": "Aug 19 - Aug 25",
+              "value": "3",
+              "startDate": "2015-08-19T07:00Z",
+              "endDate": "2015-08-25T07:00Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "detail": "Aug 26 - Sep 01",
+              "value": "4",
+              "startDate": "2015-08-26T07:00Z",
+              "endDate": "2015-09-02T06:59Z"
+            },
+            {
+              "label": "Preseason Week 4",
+              "detail": "Sep 02 - Sep 08",
+              "value": "5",
+              "startDate": "2015-09-02T07:00Z",
+              "endDate": "2015-09-09T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "entries": [
+            {
+              "label": "Week 1",
+              "detail": "Sep 09 - Sep 15",
+              "value": "1",
+              "startDate": "2015-09-09T07:00Z",
+              "endDate": "2015-09-15T07:00Z"
+            },
+            {
+              "label": "Week 2",
+              "detail": "Sep 16 - Sep 22",
+              "value": "2",
+              "startDate": "2015-09-16T07:00Z",
+              "endDate": "2015-09-22T07:00Z"
+            },
+            {
+              "label": "Week 3",
+              "detail": "Sep 23 - Sep 29",
+              "value": "3",
+              "startDate": "2015-09-23T07:00Z",
+              "endDate": "2015-09-29T07:00Z"
+            },
+            {
+              "label": "Week 4",
+              "detail": "Sep 30 - Oct 06",
+              "value": "4",
+              "startDate": "2015-09-30T07:00Z",
+              "endDate": "2015-10-06T07:00Z"
+            },
+            {
+              "label": "Week 5",
+              "detail": "Oct 07 - Oct 13",
+              "value": "5",
+              "startDate": "2015-10-07T07:00Z",
+              "endDate": "2015-10-13T07:00Z"
+            },
+            {
+              "label": "Week 6",
+              "detail": "Oct 14 - Oct 20",
+              "value": "6",
+              "startDate": "2015-10-14T07:00Z",
+              "endDate": "2015-10-20T07:00Z"
+            },
+            {
+              "label": "Week 7",
+              "detail": "Oct 21 - Oct 27",
+              "value": "7",
+              "startDate": "2015-10-21T07:00Z",
+              "endDate": "2015-10-27T07:00Z"
+            },
+            {
+              "label": "Week 8",
+              "detail": "Oct 28 - Nov 03",
+              "value": "8",
+              "startDate": "2015-10-28T07:00Z",
+              "endDate": "2015-11-03T08:00Z"
+            },
+            {
+              "label": "Week 9",
+              "detail": "Nov 04 - Nov 10",
+              "value": "9",
+              "startDate": "2015-11-04T08:00Z",
+              "endDate": "2015-11-10T08:00Z"
+            },
+            {
+              "label": "Week 10",
+              "detail": "Nov 11 - Nov 17",
+              "value": "10",
+              "startDate": "2015-11-11T08:00Z",
+              "endDate": "2015-11-17T08:00Z"
+            },
+            {
+              "label": "Week 11",
+              "detail": "Nov 18 - Nov 24",
+              "value": "11",
+              "startDate": "2015-11-18T08:00Z",
+              "endDate": "2015-11-24T08:00Z"
+            },
+            {
+              "label": "Week 12",
+              "detail": "Nov 25 - Dec 01",
+              "value": "12",
+              "startDate": "2015-11-25T08:00Z",
+              "endDate": "2015-12-01T08:00Z"
+            },
+            {
+              "label": "Week 13",
+              "detail": "Dec 02 - Dec 08",
+              "value": "13",
+              "startDate": "2015-12-02T08:00Z",
+              "endDate": "2015-12-08T08:00Z"
+            },
+            {
+              "label": "Week 14",
+              "detail": "Dec 09 - Dec 15",
+              "value": "14",
+              "startDate": "2015-12-09T08:00Z",
+              "endDate": "2015-12-15T08:00Z"
+            },
+            {
+              "label": "Week 15",
+              "detail": "Dec 16 - Dec 22",
+              "value": "15",
+              "startDate": "2015-12-16T08:00Z",
+              "endDate": "2015-12-22T08:00Z"
+            },
+            {
+              "label": "Week 16",
+              "detail": "Dec 23 - Dec 29",
+              "value": "16",
+              "startDate": "2015-12-23T08:00Z",
+              "endDate": "2015-12-29T08:00Z"
+            },
+            {
+              "label": "Week 17",
+              "detail": "Dec 30 - Jan 05",
+              "value": "17",
+              "startDate": "2015-12-30T08:00Z",
+              "endDate": "2016-01-05T08:00Z"
+            }
+          ]
+        },
+        {
+          "label": "Post Season",
+          "value": "3",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "detail": "Jan 06 - Jan 12",
+              "value": "1",
+              "startDate": "2016-01-06T08:00Z",
+              "endDate": "2016-01-12T08:00Z"
+            },
+            {
+              "label": "Divisional Round",
+              "detail": "Jan 13 - Jan 19",
+              "value": "2",
+              "startDate": "2016-01-13T08:00Z",
+              "endDate": "2016-01-19T08:00Z"
+            },
+            {
+              "label": "Conference Championships",
+              "detail": "Jan 20 - Jan 26",
+              "value": "3",
+              "startDate": "2016-01-20T08:00Z",
+              "endDate": "2016-01-26T08:00Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "detail": "Jan 27 - Feb 02",
+              "value": "4",
+              "startDate": "2016-01-27T08:00Z",
+              "endDate": "2016-02-02T08:00Z"
+            },
+            {
+              "label": "Super Bowl",
+              "detail": "Feb 03 - Feb 09",
+              "value": "5",
+              "startDate": "2016-02-03T08:00Z",
+              "endDate": "2016-02-09T08:00Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "week": {
+    "number": 1
+  },
+  "season": {
+    "type": 2,
+    "year": 2015
+  },
+  "events": [
+    {
+      "id": "400791485",
+      "uid": "s:20~l:28~e:400791485",
+      "date": "2015-09-11T00:30Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791485",
+          "uid": "s:20~l:28~e:400791485~c:400791485",
+          "date": "2015-09-11T00:30Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3738",
+            "fullName": "Gillette Stadium",
+            "address": {
+              "city": "Foxboro",
+              "state": "MA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "17",
+              "uid": "s:20~l:28~t:17",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "17",
+                "uid": "s:20~l:28~t:17",
+                "location": "New England",
+                "name": "Patriots",
+                "abbreviation": "NE",
+                "displayName": "New England Patriots",
+                "shortDisplayName": "Patriots",
+                "color": "02244A",
+                "isActive": true,
+                "venue": {
+                  "id": "3738"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/ne",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/ne",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/ne",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ne",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/ne",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ne",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/ne",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501586",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "23",
+              "uid": "s:20~l:28~t:23",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "23",
+                "uid": "s:20~l:28~t:23",
+                "location": "Pittsburgh",
+                "name": "Steelers",
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "shortDisplayName": "Steelers",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3752"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/pit",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/pit",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/pit",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/pit",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/pit",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/pit",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/pit",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501656",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Thu, September 10th at 8:30 PM EDT",
+              "shortDetail": "9/10 - 8:30 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "NBC"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2315 available from $267",
+              "numberAvailable": 2315,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/new-england-patriots-foxborough-gillette-stadium-9-10-2015-9298574"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-11T00:30Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791485",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791485",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Thu, September 10th at 8:30 PM EDT",
+          "shortDetail": "9/10 - 8:30 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791489",
+      "uid": "s:20~l:28~e:400791489",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791489",
+          "uid": "s:20~l:28~e:400791489~c:400791489",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3933",
+            "fullName": "Soldier Field",
+            "address": {
+              "city": "Chicago",
+              "state": "IL"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "3",
+              "uid": "s:20~l:28~t:3",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "3",
+                "uid": "s:20~l:28~t:3",
+                "location": "Chicago",
+                "name": "Bears",
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "shortDisplayName": "Bears",
+                "color": "152644",
+                "isActive": true,
+                "venue": {
+                  "id": "3933"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/chi",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/chi",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/chi",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/chi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/chi",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/chi",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/chi",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501436",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "9",
+              "uid": "s:20~l:28~t:9",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "9",
+                "uid": "s:20~l:28~t:9",
+                "location": "Green Bay",
+                "name": "Packers",
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "shortDisplayName": "Packers",
+                "color": "204E32",
+                "isActive": true,
+                "venue": {
+                  "id": "3798"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/gb",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/gb",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/gb",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/gb",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/gb",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/gb",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/gb",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501506",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "4804 available from $207",
+              "numberAvailable": 4804,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/chicago-bears-chicago-soldier-field-9-13-2015-9298769"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791489",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791489",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791493",
+      "uid": "s:20~l:28~e:400791493",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791493",
+          "uid": "s:20~l:28~e:400791493~c:400791493",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3891",
+            "fullName": "NRG Stadium",
+            "address": {
+              "city": "Houston",
+              "state": "TX"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "34",
+              "uid": "s:20~l:28~t:34",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "34",
+                "uid": "s:20~l:28~t:34",
+                "location": "Houston",
+                "name": "Texans",
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "shortDisplayName": "Texans",
+                "color": "00133F",
+                "isActive": true,
+                "venue": {
+                  "id": "3891"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/hou",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/hou",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/hou",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/hou",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/hou",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/hou",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/hou",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501516",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "12",
+              "uid": "s:20~l:28~t:12",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "12",
+                "uid": "s:20~l:28~t:12",
+                "location": "Kansas City",
+                "name": "Chiefs",
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "shortDisplayName": "Chiefs",
+                "color": "BE1415",
+                "isActive": true,
+                "venue": {
+                  "id": "3622"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/kc",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/kc",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/kc",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/kc",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/kc",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/kc",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/kc",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501546",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "3958 available from $105",
+              "numberAvailable": 3958,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/houston-texans-houston-nrg-stadium-9-13-2015-9298671"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791493",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791493",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791497",
+      "uid": "s:20~l:28~e:400791497",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791497",
+          "uid": "s:20~l:28~e:400791497~c:400791497",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3839",
+            "fullName": "MetLife Stadium",
+            "address": {
+              "city": "East Rutherford",
+              "state": "NJ"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "20",
+              "uid": "s:20~l:28~t:20",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "20",
+                "uid": "s:20~l:28~t:20",
+                "location": "New York",
+                "name": "Jets",
+                "abbreviation": "NYJ",
+                "displayName": "New York Jets",
+                "shortDisplayName": "Jets",
+                "color": "174032",
+                "isActive": true,
+                "venue": {
+                  "id": "3839"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/nyj",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/nyj",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/nyj",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/nyj",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/nyj",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/nyj",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/nyj",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501626",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "5",
+              "uid": "s:20~l:28~t:5",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "5",
+                "uid": "s:20~l:28~t:5",
+                "location": "Cleveland",
+                "name": "Browns",
+                "abbreviation": "CLE",
+                "displayName": "Cleveland Browns",
+                "shortDisplayName": "Browns",
+                "color": "4C230E",
+                "isActive": true,
+                "venue": {
+                  "id": "3679"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/cle",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/cle",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/cle",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/cle",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/cle",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/cle",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/cle",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501456",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "8143 available from $62",
+              "numberAvailable": 8143,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/new-york-jets-east-rutherford-metlife-stadium-9-13-2015-9298542"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791497",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791497",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791541",
+      "uid": "s:20~l:28~e:400791541",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791541",
+          "uid": "s:20~l:28~e:400791541~c:400791541",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3883",
+            "fullName": "Ralph Wilson Stadium",
+            "address": {
+              "city": "Buffalo",
+              "state": "NY"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "2",
+              "uid": "s:20~l:28~t:2",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "2",
+                "uid": "s:20~l:28~t:2",
+                "location": "Buffalo",
+                "name": "Bills",
+                "abbreviation": "BUF",
+                "displayName": "Buffalo Bills",
+                "shortDisplayName": "Bills",
+                "color": "04407F",
+                "isActive": true,
+                "venue": {
+                  "id": "3883"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/buf",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/buf",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/buf",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/buf",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/buf",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/buf",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/buf",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501416",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "11",
+              "uid": "s:20~l:28~t:11",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "11",
+                "uid": "s:20~l:28~t:11",
+                "location": "Indianapolis",
+                "name": "Colts",
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "shortDisplayName": "Colts",
+                "color": "00417E",
+                "isActive": true,
+                "venue": {
+                  "id": "3812"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/ind",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/ind",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/ind",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ind",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/ind",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ind",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/ind",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501526",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "5159 available from $144",
+              "numberAvailable": 5159,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/buffalo-bills-orchard-park-ralph-wilson-stadium-9-13-2015-9298662"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791541",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791541",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791544",
+      "uid": "s:20~l:28~e:400791544",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791544",
+          "uid": "s:20~l:28~e:400791544~c:400791544",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3719",
+            "fullName": "FedEx Field",
+            "address": {
+              "city": "Landover",
+              "state": "MD"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "28",
+              "uid": "s:20~l:28~t:28",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "28",
+                "uid": "s:20~l:28~t:28",
+                "location": "Washington",
+                "name": "Redskins",
+                "abbreviation": "WSH",
+                "displayName": "Washington Redskins",
+                "shortDisplayName": "Redskins",
+                "color": "650415",
+                "isActive": true,
+                "venue": {
+                  "id": "3719"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/wsh",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/wsh",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/wsh",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/wsh",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/wsh",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/wsh",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/wsh",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501736",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "15",
+              "uid": "s:20~l:28~t:15",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "15",
+                "uid": "s:20~l:28~t:15",
+                "location": "Miami",
+                "name": "Dolphins",
+                "abbreviation": "MIA",
+                "displayName": "Miami Dolphins",
+                "shortDisplayName": "Dolphins",
+                "color": "006B79",
+                "isActive": true,
+                "venue": {
+                  "id": "3948"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/mia",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/mia",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/mia",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/mia",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/mia",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/mia",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/mia",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501556",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "5904 available from $61",
+              "numberAvailable": 5904,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/washington-redskins-landover-fedexfield-9-13-2015-9298613"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791544",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791544",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791547",
+      "uid": "s:20~l:28~e:400791547",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791547",
+          "uid": "s:20~l:28~e:400791547~c:400791547",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3712",
+            "fullName": "EverBank Field",
+            "address": {
+              "city": "Jacksonville",
+              "state": "FL"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "30",
+              "uid": "s:20~l:28~t:30",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "30",
+                "uid": "s:20~l:28~t:30",
+                "location": "Jacksonville",
+                "name": "Jaguars",
+                "abbreviation": "JAX",
+                "displayName": "Jacksonville Jaguars",
+                "shortDisplayName": "Jaguars",
+                "color": "00839C",
+                "isActive": true,
+                "venue": {
+                  "id": "3712"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/jax",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/jax",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/jax",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/jax",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/jax",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/jax",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/jax",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501536",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "29",
+              "uid": "s:20~l:28~t:29",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "location": "Carolina",
+                "name": "Panthers",
+                "abbreviation": "CAR",
+                "displayName": "Carolina Panthers",
+                "shortDisplayName": "Panthers",
+                "color": "2177B0",
+                "isActive": true,
+                "venue": {
+                  "id": "3628"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/car",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/car",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/car",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/car",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/car",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/car",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/car",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501426",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "1822 available from $40",
+              "numberAvailable": 1822,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/jacksonville-jaguars-jacksonville-everbank-field-9-13-2015-9298748"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791547",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791547",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791550",
+      "uid": "s:20~l:28~e:400791550",
+      "date": "2015-09-13T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791550",
+          "uid": "s:20~l:28~e:400791550~c:400791550",
+          "date": "2015-09-13T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3494",
+            "fullName": "Edward Jones Dome",
+            "address": {
+              "city": "Saint Louis",
+              "state": "MO"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "14",
+              "uid": "s:20~l:28~t:14",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "14",
+                "uid": "s:20~l:28~t:14",
+                "location": "St. Louis",
+                "name": "Rams",
+                "abbreviation": "STL",
+                "displayName": "St. Louis Rams",
+                "shortDisplayName": "Rams",
+                "color": "00295B",
+                "isActive": true,
+                "venue": {
+                  "id": "3494"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/stl",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/stl",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/stl",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/stl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/stl",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/stl",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/stl",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501706",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/stl.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "26",
+              "uid": "s:20~l:28~t:26",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "26",
+                "uid": "s:20~l:28~t:26",
+                "location": "Seattle",
+                "name": "Seahawks",
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "shortDisplayName": "Seahawks",
+                "color": "224970",
+                "isActive": true,
+                "venue": {
+                  "id": "3673"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/sea",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/sea",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/sea",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/sea",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/sea",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/sea",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/sea",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501696",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "3579 available from $38",
+              "numberAvailable": 3579,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/st-louis-rams-saint-louis-edward-jones-dome-9-13-2015-9298779"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T17:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791550",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791550",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 1:00 PM EDT",
+          "shortDetail": "9/13 - 1:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791555",
+      "uid": "s:20~l:28~e:400791555",
+      "date": "2015-09-13T20:05Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791555",
+          "uid": "s:20~l:28~e:400791555~c:400791555",
+          "date": "2015-09-13T20:05Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3970",
+            "fullName": "U of Phoenix Stadium",
+            "address": {
+              "city": "Glendale",
+              "state": "AZ"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "22",
+              "uid": "s:20~l:28~t:22",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "22",
+                "uid": "s:20~l:28~t:22",
+                "location": "Arizona",
+                "name": "Cardinals",
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "shortDisplayName": "Cardinals",
+                "color": "A40227",
+                "isActive": true,
+                "venue": {
+                  "id": "3970"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/ari",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/ari",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/ari",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ari",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/ari",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ari",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/ari",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501346",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "18",
+              "uid": "s:20~l:28~t:18",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "18",
+                "uid": "s:20~l:28~t:18",
+                "location": "New Orleans",
+                "name": "Saints",
+                "abbreviation": "NO",
+                "displayName": "New Orleans Saints",
+                "shortDisplayName": "Saints",
+                "color": "020202",
+                "isActive": true,
+                "venue": {
+                  "id": "3493"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/no",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/no",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/no",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/no",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/no",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/no",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/no",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501596",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:05 PM EDT",
+              "shortDetail": "9/13 - 4:05 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "9592 available from $53",
+              "numberAvailable": 9592,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/arizona-cardinals-glendale-university-of-phoenix-stadium-9-13-2015-9298565"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T20:05Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791555",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791555",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 4:05 PM EDT",
+          "shortDetail": "9/13 - 4:05 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791558",
+      "uid": "s:20~l:28~e:400791558",
+      "date": "2015-09-13T20:05Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791558",
+          "uid": "s:20~l:28~e:400791558~c:400791558",
+          "date": "2015-09-13T20:05Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3932",
+            "fullName": "Qualcomm Stadium",
+            "address": {
+              "city": "San Diego",
+              "state": "CA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "24",
+              "uid": "s:20~l:28~t:24",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "24",
+                "uid": "s:20~l:28~t:24",
+                "location": "San Diego",
+                "name": "Chargers",
+                "abbreviation": "SD",
+                "displayName": "San Diego Chargers",
+                "shortDisplayName": "Chargers",
+                "color": "042453",
+                "isActive": true,
+                "venue": {
+                  "id": "3932"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/sd",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/sd",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/sd",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/sd",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/sd",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/sd",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/sd",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501676",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sd.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "8",
+              "uid": "s:20~l:28~t:8",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "8",
+                "uid": "s:20~l:28~t:8",
+                "location": "Detroit",
+                "name": "Lions",
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "shortDisplayName": "Lions",
+                "color": "035C98",
+                "isActive": true,
+                "venue": {
+                  "id": "3727"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/det",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/det",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/det",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/det",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/det",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/det",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/det",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501496",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:05 PM EDT",
+              "shortDetail": "9/13 - 4:05 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "10050 available from $43",
+              "numberAvailable": 10050,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/san-diego-chargers-san-diego-qualcomm-stadium-9-13-2015-9298632"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T20:05Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791558",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791558",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 4:05 PM EDT",
+          "shortDetail": "9/13 - 4:05 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791582",
+      "uid": "s:20~l:28~e:400791582",
+      "date": "2015-09-13T20:25Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791582",
+          "uid": "s:20~l:28~e:400791582~c:400791582",
+          "date": "2015-09-13T20:25Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3886",
+            "fullName": "Raymond James Stadium",
+            "address": {
+              "city": "Tampa",
+              "state": "FL"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "27",
+              "uid": "s:20~l:28~t:27",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "27",
+                "uid": "s:20~l:28~t:27",
+                "location": "Tampa Bay",
+                "name": "Buccaneers",
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "shortDisplayName": "Buccaneers",
+                "color": "A80D08",
+                "isActive": true,
+                "venue": {
+                  "id": "3886"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/tb",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/tb",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/tb",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/tb",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/tb",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/tb",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/tb",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501716",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "10",
+              "uid": "s:20~l:28~t:10",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "10",
+                "uid": "s:20~l:28~t:10",
+                "location": "Tennessee",
+                "name": "Titans",
+                "abbreviation": "TEN",
+                "displayName": "Tennessee Titans",
+                "shortDisplayName": "Titans",
+                "color": "2F95DD",
+                "isActive": true,
+                "venue": {
+                  "id": "3810"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/ten",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/ten",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/ten",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ten",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/ten",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ten",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/ten",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501726",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2422 available from $42",
+              "numberAvailable": 2422,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/tampa-bay-buccaneers-tampa-raymond-james-stadium-9-13-2015-9298701"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T20:25Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791582",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791582",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 4:25 PM EDT",
+          "shortDetail": "9/13 - 4:25 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791585",
+      "uid": "s:20~l:28~e:400791585",
+      "date": "2015-09-13T20:25Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791585",
+          "uid": "s:20~l:28~e:400791585~c:400791585",
+          "date": "2015-09-13T20:25Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3867",
+            "fullName": "O.co Coliseum",
+            "address": {
+              "city": "Oakland",
+              "state": "CA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "13",
+              "uid": "s:20~l:28~t:13",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "13",
+                "uid": "s:20~l:28~t:13",
+                "location": "Oakland",
+                "name": "Raiders",
+                "abbreviation": "OAK",
+                "displayName": "Oakland Raiders",
+                "shortDisplayName": "Raiders",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3867"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/oak",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/oak",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/oak",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/oak",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/oak",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/oak",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/oak",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501636",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/oak.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "4",
+              "uid": "s:20~l:28~t:4",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "4",
+                "uid": "s:20~l:28~t:4",
+                "location": "Cincinnati",
+                "name": "Bengals",
+                "abbreviation": "CIN",
+                "displayName": "Cincinnati Bengals",
+                "shortDisplayName": "Bengals",
+                "color": "FF2700",
+                "isActive": true,
+                "venue": {
+                  "id": "3874"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/cin",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/cin",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/cin",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/cin",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/cin",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/cin",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/cin",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501446",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2541 available from $71",
+              "numberAvailable": 2541,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/oakland-raiders-oakland-o-co-coliseum-9-13-2015-9298725"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T20:25Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791585",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791585",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 4:25 PM EDT",
+          "shortDetail": "9/13 - 4:25 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791587",
+      "uid": "s:20~l:28~e:400791587",
+      "date": "2015-09-13T20:25Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791587",
+          "uid": "s:20~l:28~e:400791587~c:400791587",
+          "date": "2015-09-13T20:25Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3937",
+            "fullName": "Sports Authority Field at Mile High",
+            "address": {
+              "city": "Denver",
+              "state": "CO"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "7",
+              "uid": "s:20~l:28~t:7",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "7",
+                "uid": "s:20~l:28~t:7",
+                "location": "Denver",
+                "name": "Broncos",
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "shortDisplayName": "Broncos",
+                "color": "002E4D",
+                "isActive": true,
+                "venue": {
+                  "id": "3937"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/den",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/den",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/den",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/den",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/den",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/den",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/den",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501486",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "33",
+              "uid": "s:20~l:28~t:33",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "33",
+                "uid": "s:20~l:28~t:33",
+                "location": "Baltimore",
+                "name": "Ravens",
+                "abbreviation": "BAL",
+                "displayName": "Baltimore Ravens",
+                "shortDisplayName": "Ravens",
+                "color": "2B025B",
+                "isActive": true,
+                "venue": {
+                  "id": "3814"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/bal",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/bal",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/bal",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/bal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/bal",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/bal",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/bal",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501376",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2401 available from $178",
+              "numberAvailable": 2401,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/denver-broncos-denver-sports-authority-field-at-mile-high-9-13-2015-9298516"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-13T20:25Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791587",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791587",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 4:25 PM EDT",
+          "shortDetail": "9/13 - 4:25 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791590",
+      "uid": "s:20~l:28~e:400791590",
+      "date": "2015-09-14T00:30Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791590",
+          "uid": "s:20~l:28~e:400791590~c:400791590",
+          "date": "2015-09-14T00:30Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3687",
+            "fullName": "AT&T Stadium",
+            "address": {
+              "city": "Arlington",
+              "state": "TX"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "6",
+              "uid": "s:20~l:28~t:6",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "6",
+                "uid": "s:20~l:28~t:6",
+                "location": "Dallas",
+                "name": "Cowboys",
+                "abbreviation": "DAL",
+                "displayName": "Dallas Cowboys",
+                "shortDisplayName": "Cowboys",
+                "color": "002E4D",
+                "isActive": true,
+                "venue": {
+                  "id": "3687"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/dal",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/dal",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/dal",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/dal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/dal",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/dal",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/dal",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501466",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "19",
+              "uid": "s:20~l:28~t:19",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "19",
+                "uid": "s:20~l:28~t:19",
+                "location": "New York",
+                "name": "Giants",
+                "abbreviation": "NYG",
+                "displayName": "New York Giants",
+                "shortDisplayName": "Giants",
+                "color": "052570",
+                "isActive": true,
+                "venue": {
+                  "id": "3839"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/nyg",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/nyg",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/nyg",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/nyg",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/nyg",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/nyg",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/nyg",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501606",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 8:30 PM EDT",
+              "shortDetail": "9/13 - 8:30 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "NBC"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "10833 available from $40",
+              "numberAvailable": 10833,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/dallas-cowboys-arlington-at-t-stadium-9-13-2015-9298524"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-14T00:30Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791590",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791590",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, September 13th at 8:30 PM EDT",
+          "shortDetail": "9/13 - 8:30 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791596",
+      "uid": "s:20~l:28~e:400791596",
+      "date": "2015-09-14T23:10Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791596",
+          "uid": "s:20~l:28~e:400791596~c:400791596",
+          "date": "2015-09-14T23:10Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3495",
+            "fullName": "Georgia Dome",
+            "address": {
+              "city": "Atlanta",
+              "state": "GA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "1",
+              "uid": "s:20~l:28~t:1",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "1",
+                "uid": "s:20~l:28~t:1",
+                "location": "Atlanta",
+                "name": "Falcons",
+                "abbreviation": "ATL",
+                "displayName": "Atlanta Falcons",
+                "shortDisplayName": "Falcons",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3495"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/atl",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/atl",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/atl",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/atl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/atl",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/atl",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/atl",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501356",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "21",
+              "uid": "s:20~l:28~t:21",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "21",
+                "uid": "s:20~l:28~t:21",
+                "location": "Philadelphia",
+                "name": "Eagles",
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "shortDisplayName": "Eagles",
+                "color": "06424D",
+                "isActive": true,
+                "venue": {
+                  "id": "3806"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/phi",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/phi",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/phi",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/phi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/phi",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/phi",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/phi",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501646",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Mon, September 14th at 7:10 PM EDT",
+              "shortDetail": "9/14 - 7:10 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "ESPN"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "8416 available from $67",
+              "numberAvailable": 8416,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/atlanta-falcons-atlanta-georgia-dome-9-14-2015-9298659"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-14T23:10Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791596",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791596",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "watchespn",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/watchespn/index?gameId=400791596",
+          "text": "WatchESPN",
+          "shortText": "WatchESPN",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Mon, September 14th at 7:10 PM EDT",
+          "shortDetail": "9/14 - 7:10 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "400791600",
+      "uid": "s:20~l:28~e:400791600",
+      "date": "2015-09-15T02:20Z",
+      "season": {
+        "year": 2015,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400791600",
+          "uid": "s:20~l:28~e:400791600~c:400791600",
+          "date": "2015-09-15T02:20Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "4738",
+            "fullName": "Levi's Stadium",
+            "address": {
+              "city": "Santa Clara",
+              "state": "CA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "25",
+              "uid": "s:20~l:28~t:25",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "25",
+                "uid": "s:20~l:28~t:25",
+                "location": "San Francisco",
+                "name": "49ers",
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "shortDisplayName": "49ers",
+                "color": "981324",
+                "isActive": true,
+                "venue": {
+                  "id": "3669"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/sf",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/sf",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/sf",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/sf",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/sf",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/sf",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/sf",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501686",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            },
+            {
+              "id": "16",
+              "uid": "s:20~l:28~t:16",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "16",
+                "uid": "s:20~l:28~t:16",
+                "location": "Minnesota",
+                "name": "Vikings",
+                "abbreviation": "MIN",
+                "displayName": "Minnesota Vikings",
+                "shortDisplayName": "Vikings",
+                "color": "240A67",
+                "isActive": true,
+                "venue": {
+                  "id": "16"
+                },
+                "groups": {
+                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/min",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/min",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/min",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/min",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/min",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/min",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/min",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501576",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+              },
+              "score": "0",
+              "statistics": null,
+              "winner": null,
+              "records": null
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Mon, September 14th at 10:20 PM EDT",
+              "shortDetail": "9/14 - 10:20 PM EDT"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "ESPN"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "6781 available from $119",
+              "numberAvailable": 6781,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/san-francisco-49ers-santa-clara-levi-s-stadium-9-14-2015-9298520"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-09-15T02:20Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791600",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791600",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "watchespn",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/watchespn/index?gameId=400791600",
+          "text": "WatchESPN",
+          "shortText": "WatchESPN",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Mon, September 14th at 10:20 PM EDT",
+          "shortDetail": "9/14 - 10:20 PM EDT"
+        }
+      }
+    }
+  ]
+}

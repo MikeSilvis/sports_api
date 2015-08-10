@@ -5,10 +5,9 @@ require 'json'
 module SportsApi::Fetcher
   module ESPN
     module Api
-      def get(league_string, league, date)
-        day = date.to_s.gsub(/[^\d]+/, '')
-        url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=#{day}"
-        response = Http.get(url)
+      def get(league_string, league, params)
+        url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard"
+        response = Http.get(url, params)
         if response.status == 200
           JSON.parse(response.body)
         else
@@ -50,8 +49,8 @@ module SportsApi::Fetcher
       self.body   = body
     end
 
-    def self.get(url)
-      response = Faraday.get(url, timeout: 10)
+    def self.get(url, params)
+      response = Faraday.get(url, params.merge(timeout: 10))
       new(response.status, response.body)
     end
   end

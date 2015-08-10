@@ -7,7 +7,7 @@ describe SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score do
       let(:date) { Date.new(2015, 4, 19) }
       let(:find) { SportsApi::Fetcher::Score::NBA.find(date) }
       let(:json_stub) { StubbedJson.get('past.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::NBA).to receive(:get).with('basketball', 'nba', date).and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::NBA).to receive(:get).with('basketball', 'nba', day: '20150419').and_return(json_stub) }
       context 'basic league info' do
         it { expect(find.calendar.dates.size).to eq(227) }
         it { expect(find.name).to eq('National Basketball Association') }
