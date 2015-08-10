@@ -24,6 +24,14 @@ class SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score
         SportsApi::Model::Event.new.tap do |event|
           event.date = Date.parse(event_json['date'])
 
+          status_json = event_json['status']
+          event.status = SportsApi::Model::Status.new.tap do |status|
+            status.display_clock = status_json['displayClock']
+            status.period = status_json['period']
+            status.state = status_json['type']['state']
+            status.detail = status_json['type']['shortDetail']
+          end
+
           ## Build Competitors
           event.competitors = event_json['competitions'].first['competitors'].map do |competitor_json|
             SportsApi::Model::Competitor.new.tap do |competitor|

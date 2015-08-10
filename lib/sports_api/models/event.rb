@@ -9,6 +9,6 @@ class SportsApi::Model::Event
                 :league,
                 :espnid,
                 :line,
-                :state,
-                :competitors
+                :competitors,
+                :status
 end
