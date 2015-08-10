@@ -1,3 +1,9 @@
+## TODO
+# Attributes
+# attendance
+# Headlines
+# Leaders
+
 class SportsApi::Model::Event
   SCORE_STATES = [
     PREGAME = 'pregame',
@@ -10,5 +16,10 @@ class SportsApi::Model::Event
                 :espnid,
                 :line,
                 :competitors,
-                :status
+                :status,
+                :score
+
+  def score
+    @score ||= competitors.map { |c| c.score }.join(' - ')
+  end
 end

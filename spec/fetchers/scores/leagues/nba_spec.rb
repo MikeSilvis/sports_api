@@ -17,6 +17,7 @@ describe SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score do
         it { expect(event.date).to eq(Date.new(2015, 4, 19)) }
         it { expect(event.competitors.first.name).to eq('Cleveland Cavaliers') }
         it { expect(event.competitors.first.record.summary).to eq('53-29') }
+        it { expect(event.score).to eq('113 - 100') }
       end
     end
   end
