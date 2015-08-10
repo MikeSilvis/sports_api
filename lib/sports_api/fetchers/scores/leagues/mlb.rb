@@ -1,6 +1,4 @@
-require_relative '../helpers/api_parser'
-
-class SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score
+class SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score
   include SportsApi::Fetcher::ESPN::Api
   include SportsApi::Fetcher::Score::ApiParser
 
@@ -19,6 +17,6 @@ class SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score
   private
 
   def json
-    @json ||= get('basketball', 'nba', date)
+    @json ||= get('baseball', 'mlb', date)
   end
 end

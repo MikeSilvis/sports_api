@@ -14,7 +14,6 @@ describe SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score do
       end
       context 'event info' do
         let(:event) { find.events.first }
-        it { expect(event).to be_a(SportsApi::Model::Event) }
         it { expect(event.date).to eq(Date.new(2015, 4, 19)) }
         it { expect(event.competitors.first.name).to eq('Cleveland Cavaliers') }
         it { expect(event.competitors.first.record.summary).to eq('53-29') }
