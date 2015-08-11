@@ -2,12 +2,12 @@ Dir["#{File.dirname(__FILE__)}/sports_api/**/**/*.rb"].sort_by(&:length).reject 
 
 module SportsApi
   LEAGUES = [
-    NHL = 'nhl',
+    #NHL = 'nhl',
     NBA = 'nba',
     NCF = 'ncf',
     MLB = 'mlb',
     NFL = 'nfl',
-    NCB = 'ncb'
+    #NCB = 'ncb'
   ]
   def self.root
     File.expand_path('../..',__FILE__)

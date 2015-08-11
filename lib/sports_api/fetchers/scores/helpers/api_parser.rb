@@ -1,4 +1,8 @@
 module SportsApi::Fetcher::Score::ApiParser
+  def response
+    generate_league
+  end
+
   def generate_league
     SportsApi::Model::League.new.tap do |league|
       league_json = json['leagues'].first

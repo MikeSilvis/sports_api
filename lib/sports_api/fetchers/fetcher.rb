@@ -42,7 +42,7 @@ module SportsApi::Fetcher
 
   class Http
     attr_accessor :body,
-      :status
+                  :status
 
     def initialize(status, body)
       self.status = status

@@ -4,16 +4,15 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   include SportsApi::Fetcher::ESPN::Api
   include SportsApi::Fetcher::Score::ApiParser
 
-  def initialize(week)
+  attr_accessor :season_type
+
+  def initialize(season_type, week)
     self.week = week
+    self.season_type = season_type
   end
 
-  def self.find(week)
-    new(week).response
-  end
-
-  def response
-    generate_league
+  def self.find(season_type, week)
+    new(season_type, week).response
   end
 
   private
@@ -23,6 +22,6 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   end
 
   def json
-    @json ||= get('football', 'nfl', week: week)
+    @json ||= get('football', 'nfl', week: week, seasontype: season_type)
   end
 end

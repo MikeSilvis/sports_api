@@ -12,10 +12,6 @@ class SportsApi::Fetcher::Score::NBA < SportsApi::Fetcher::Score
     new(date).response
   end
 
-  def response
-    generate_league
-  end
-
   private
 
   def generate_calendar(calendar_json)

@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score do
-  it { expect(SportsApi::Fetcher::Score::MLB.new(Date.today)).to_not eq(nil) }
   describe '#find' do
     describe 'past game' do
       let(:date) { Date.new(2015, 8, 9) }

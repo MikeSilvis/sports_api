@@ -22,7 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+#### Supported leagues
+
+The gem only supports the following leagues:
+
+```ruby
+ESPN.leagues
+# => ["nfl", "mlb", "nba", "ncf"]
+```
+
+#### Get scores
+``` ruby
+week = 1
+SportsApi::Fetcher::Score::NFL.find(week)
+```
 
 ## Development
 
