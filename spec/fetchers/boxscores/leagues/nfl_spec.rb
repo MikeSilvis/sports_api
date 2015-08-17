@@ -13,7 +13,10 @@ describe SportsApi::Fetcher::Boxscore::NFL do
     before { expect_any_instance_of(SportsApi::Fetcher::Boxscore::NFL).to receive(:get).with('nfl/boxscore', gameId: gameid).and_return(html_stub) }
 
     context 'event info' do
+      let(:score_detail) { find.score_details.first }
       it { expect(find.score.date).to eq(Date.new(2015, 8, 16)) }
+      it { expect(find.score_details.count).to eq(4) }
+      it { expect(score_detail.headline).to eq("FIRST QUARTER") }
     end
   end
 end
