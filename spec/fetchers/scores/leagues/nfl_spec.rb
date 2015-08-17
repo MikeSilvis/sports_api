@@ -46,6 +46,5 @@ describe SportsApi::Fetcher::Score::NFL do
         it { expect(event.headline.photo).to eq(thumbnail_url) }
       end
     end
-
   end
 end

@@ -1,4 +1,4 @@
 class SportsApi::Model::ScoreDetail
   attr_accessor :headline,
-                :content
+                :contents
 end
