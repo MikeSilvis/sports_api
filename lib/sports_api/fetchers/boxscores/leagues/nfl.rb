@@ -6,7 +6,6 @@ class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
     SportsApi::Model::Boxscore.new.tap do |boxscore|
       boxscore.score = score
       boxscore.score_details = generate_score_detail
-      byebug
     end
   end
 
