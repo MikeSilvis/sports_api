@@ -6,7 +6,7 @@ describe SportsApi::Fetcher::Score::MLB do
       let(:date) { Date.new(2015, 8, 9) }
       let(:find) { SportsApi::Fetcher::Score::MLB.find(date) }
       let(:json_stub) { StubbedJson.get('past.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', day: '20150809').and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', dates: 20150809).and_return(json_stub) }
       context 'basic league info' do
         it { expect(find.calendar.dates.size).to eq(36) }
         it { expect(find.name).to eq('Major League Baseball') }
@@ -25,7 +25,7 @@ describe SportsApi::Fetcher::Score::MLB do
       let(:date) { Date.new(2015, 8, 9) }
       let(:find) { SportsApi::Fetcher::Score::MLB.find(date) }
       let(:json_stub) { StubbedJson.get('inprogress.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', day: '20150809').and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', dates: 20150809).and_return(json_stub) }
 
       context 'event' do
         let(:event) { find.events.detect { |event| event.status.inprogress? } }
@@ -39,7 +39,7 @@ describe SportsApi::Fetcher::Score::MLB do
       let(:date) { Date.new(2015, 8, 10) }
       let(:find) { SportsApi::Fetcher::Score::MLB.find(date) }
       let(:json_stub) { StubbedJson.get('pregame.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', day: '20150810').and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', dates: 20150810).and_return(json_stub) }
 
       context 'event' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }

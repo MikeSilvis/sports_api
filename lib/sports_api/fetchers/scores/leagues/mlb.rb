@@ -19,6 +19,6 @@ class SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score
   end
 
   def json
-    @json ||= get('baseball', 'mlb', day: date.to_s.gsub(/[^\d]+/, ''))
+    @json ||= get('baseball', 'mlb', dates: date.to_s.gsub(/[^\d]+/, '').to_i)
   end
 end

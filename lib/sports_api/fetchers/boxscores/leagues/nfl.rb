@@ -1,25 +1,5 @@
 class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
-  include SportsApi::Fetcher::ESPN::Scraper
-  attr_accessor :event_date
-
-  def response
-    SportsApi::Model::Boxscore.new.tap do |boxscore|
-      boxscore.score = score
-      boxscore.score_details = generate_score_detail
-    end
-  end
-
   private
-
-  def event_date
-    @event_date ||= Date.parse(markup.at_css('.game-time-location p').content)
-  end
-
-  def score
-    @score ||= score_fetcher.events.detect do |event|
-                 event.gameid == gameid
-               end
-  end
 
   def generate_score_detail
     table = markup.at_css('.mod-container.mod-open.mod-open-gamepack')
@@ -32,7 +12,7 @@ class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
             detail_content.detail = content_html.css('td')[3].content
 
             markdown_abbr = content_html.css('td')[0].at_css('img').attributes['alt'].value
-            competitor = score.competitors.detect { |comp| comp.abbreviation.downcase == markdown_abbr}
+            competitor = score.competitors.detect { |comp| comp.abbreviation.downcase == markdown_abbr }
             detail_content.competitor = competitor
           end
         end
