@@ -7,4 +7,11 @@ class SportsApi::Model::Schedule::List
                 :end_date,
                 :category
 
+  def week=(week)
+    @week = week.to_i
+  end
+
+  def season=(season)
+    @season = season.to_i
+  end
 end
