@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score do
+describe SportsApi::Fetcher::Score::NCF do
   it { expect(SportsApi::Fetcher::Score::NCF.new(1)).to_not eq(nil) }
   describe '#find' do
     describe 'pregame' do

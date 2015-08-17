@@ -12,7 +12,7 @@ class SportsApi::Model::Event
 
   attr_accessor :date,
                 :league,
-                :espnid,
+                :gameid,
                 :line,
                 :competitors,
                 :status,
@@ -21,5 +21,9 @@ class SportsApi::Model::Event
 
   def score
     @score ||= competitors.map { |c| c.score }.join(' - ')
+  end
+
+  def gameid=(id)
+    @gameid = id.to_i
   end
 end

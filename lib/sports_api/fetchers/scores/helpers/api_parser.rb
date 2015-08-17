@@ -33,10 +33,10 @@ module SportsApi::Fetcher::Score::ApiParser
       category_json['entries'].map do |schedule_json|
         SportsApi::Model::Schedule::List.new.tap do |schedule|
           schedule.category = category_json['label']
-
+          schedule.season = category_json['value']
           schedule.label = schedule_json['label']
           schedule.detail = schedule_json['detail']
-          schedule.value = schedule_json['value']
+          schedule.week = schedule_json['value']
           schedule.start_date = Date.parse(schedule_json['startDate'])
           schedule.end_date = Date.parse(schedule_json['endDate'])
         end
@@ -48,6 +48,8 @@ module SportsApi::Fetcher::Score::ApiParser
     json['events'].map do |event_json|
       SportsApi::Model::Event.new.tap do |event|
         event.date = Date.parse(event_json['date'])
+        event.gameid = event_json['id']
+
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h)

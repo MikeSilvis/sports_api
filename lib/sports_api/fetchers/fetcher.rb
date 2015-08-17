@@ -17,16 +17,17 @@ module SportsApi::Fetcher
     end
 
     module Scraper
-      def url(*path)
-        path.map { |p| p.gsub!(/\A\//, '') }
-        subdomain = (path.first == 'scores') ? path.shift : nil
-        domain = [subdomain, 'espn', 'go', 'com'].compact.join('.')
+      def url(path)
         ['http:/', domain, *path].join('/')
       end
 
-      def get(*path)
+      def domain
+        'espn.go.com'
+      end
+
+      def get(path, params)
         http_url = self.url(*path)
-        response = Http.get(http_url)
+        response = Http.get(http_url,params)
         if response.status == 200
           Nokogiri::HTML(response.body)
         else

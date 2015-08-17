@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score do
+describe SportsApi::Fetcher::Score::MLB do
   describe '#find' do
     describe 'past game' do
       let(:date) { Date.new(2015, 8, 9) }
