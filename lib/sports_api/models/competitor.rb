@@ -8,5 +8,6 @@ class SportsApi::Model::Competitor
                 :location,
                 :abbreviation,
                 :record,
-                :id
+                :id,
+                :linescores
 end

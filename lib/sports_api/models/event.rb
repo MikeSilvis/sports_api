@@ -1,7 +1,6 @@
 ## TODO
 # Attributes
 # attendance
-# Headlines
 # Leaders
 
 class SportsApi::Model::Event
@@ -17,7 +16,8 @@ class SportsApi::Model::Event
                 :line,
                 :competitors,
                 :status,
-                :score
+                :score,
+                :headline
 
   def score
     @score ||= competitors.map { |c| c.score }.join(' - ')

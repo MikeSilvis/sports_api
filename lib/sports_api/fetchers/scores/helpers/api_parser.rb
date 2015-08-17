@@ -50,6 +50,7 @@ module SportsApi::Fetcher::Score::ApiParser
         event.date = Date.parse(event_json['date'])
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
+        event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h)
       end
     end
   end
@@ -71,6 +72,7 @@ module SportsApi::Fetcher::Score::ApiParser
         competitor.type = competitor_json['type']
         competitor.home_away = competitor_json['homeAway']
         competitor.score = competitor_json['score']
+        competitor.linescores = competitor_json['linescores'].to_a.map { |l| l['value'] }
         competitor.winner = competitor_json['winner']
 
         competitor.name = competitor_json['team']['displayName']
@@ -89,6 +91,16 @@ module SportsApi::Fetcher::Score::ApiParser
     SportsApi::Model::Record.new.tap do |record|
       record.name = record_json['name']
       record.summary = record_json['summary']
+    end
+  end
+
+  def generate_headline(headline_json)
+    SportsApi::Model::Headline.new.tap do |headline|
+      video_json = headline_json['video'].to_a.first.to_h
+
+      headline.title = video_json.empty? ? headline_json['description'] : video_json['headline']
+      headline.content = headline_json['description']
+      headline.photo = video_json['thumbnail']
     end
   end
 end

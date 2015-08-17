@@ -34,6 +34,19 @@ describe SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score do
       end
     end
   end
+
+  describe 'postgame' do
+      let(:week) { 1 }
+      let(:find) { SportsApi::Fetcher::Score::NFL.find(1, week) }
+      let(:json_stub) { StubbedJson.get('postgame.json') }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::NFL).to receive(:get).with('football', 'nfl', week: week, seasontype: 1).and_return(json_stub) }
+      context 'event info' do
+        let(:event) { find.events.detect { |event| event.status.final? } }
+        let(:thumbnail_url) { 'http://a.espncdn.com/media/motion/2015/0816/dm_150816_nfl_eagles_colts_highlight/dm_150816_nfl_eagles_colts_highlight.jpg' }
+        it { expect(event.date).to eq(Date.new(2015, 8, 16)) }
+        it { expect(event.headline.photo).to eq(thumbnail_url) }
+      end
+  end
 end
 
 
