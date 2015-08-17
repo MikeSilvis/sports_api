@@ -16,7 +16,7 @@ describe SportsApi::Fetcher::Boxscore::NFL do
       let(:score_detail) { find.score_details.first }
       it { expect(find.score.date).to eq(Date.new(2015, 8, 16)) }
       it { expect(find.score_details.count).to eq(4) }
-      it { expect(score_detail.headline).to eq("FIRST QUARTER") }
+      it { expect(score_detail.headline).to eq('FIRST QUARTER') }
     end
   end
 end
