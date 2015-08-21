@@ -12,6 +12,9 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   end
 
   def self.find(date)
+    date_obj = date_list(date)
+
+    SportsApi::Fetcher::Score::NFL.find_by(date_obj.season, date_obj.week)
   end
 
   def self.find_by(season_type, week)
@@ -19,6 +22,12 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   end
 
   private
+
+  def self.date_list(date)
+    SportsApi::Fetcher::Calendar::NFL.find.dates.detect do |list|
+      (list.start_date < date) && (date < list.end_date)
+    end
+  end
 
   def generate_calendar(calendar_json)
     generate_calendar_list(calendar_json)

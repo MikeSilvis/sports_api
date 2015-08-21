@@ -21,17 +21,7 @@ class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
   end
 
   def score_fetcher
-    @score_fetcher ||= SportsApi::Fetcher::Score::NFL.find_by(date_list.season, date_list.week)
-  end
-
-  def date_list
-    calendar.dates.detect do |list|
-      (list.start_date < event_date) && (event_date < list.end_date)
-    end
-  end
-
-  def calendar
-    @calendar ||= SportsApi::Fetcher::Calendar::NFL.find
+    @score_fetcher ||= SportsApi::Fetcher::Score::NFL.find(event_date)
   end
 
   def markup
