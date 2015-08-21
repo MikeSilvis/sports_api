@@ -11,7 +11,10 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
     self.season_type = season_type
   end
 
-  def self.find(season_type, week)
+  def self.find(date)
+  end
+
+  def self.find_by(season_type, week)
     new(season_type, week).response
   end
 

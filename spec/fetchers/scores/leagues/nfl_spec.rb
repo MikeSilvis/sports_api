@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe SportsApi::Fetcher::Score::NFL do
   describe '#find' do
-    let(:find) { SportsApi::Fetcher::Score::NFL.find(1, week) }
+    let(:find) { SportsApi::Fetcher::Score::NFL.find_by(1, week) }
 
     describe 'pregame' do
       let(:week) { 1 }
@@ -37,7 +37,7 @@ describe SportsApi::Fetcher::Score::NFL do
     describe 'postgame' do
       let(:week) { 1 }
       let(:json_stub) { StubbedJson.get('postgame.json') }
-      let(:find) { SportsApi::Fetcher::Score::NFL.find(1, week) }
+      let(:find) { SportsApi::Fetcher::Score::NFL.find_by(1, week) }
       before { expect_any_instance_of(SportsApi::Fetcher::Score::NFL).to receive(:get).with('football', 'nfl', week: week, seasontype: 1).and_return(json_stub) }
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
