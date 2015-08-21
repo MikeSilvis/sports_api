@@ -1,4 +1,11 @@
 class SportsApi::Fetcher::Boxscore::MLB < SportsApi::Fetcher::Boxscore
+
+  def self.find(date)
+    new(date).response
+  end
+
+  private
+
   def score_fetcher
     @score_fetcher ||= SportsApi::Fetcher::Score::MLB.find(event_date)
   end

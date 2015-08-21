@@ -1,4 +1,9 @@
 class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
+
+  def self.find(date)
+    new(date).response
+  end
+
   private
 
   def generate_score_detail
