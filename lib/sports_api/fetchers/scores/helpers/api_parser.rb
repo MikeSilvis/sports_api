@@ -41,7 +41,7 @@ module SportsApi::Fetcher::Score::ApiParser
           schedule.end_date = Date.parse(schedule_json['endDate'])
         end
       end
-    end.flatten
+    end.flatten.compact
   end
 
   def generate_events
