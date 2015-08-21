@@ -24,7 +24,7 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   private
 
   def self.date_list(date)
-    SportsApi::Fetcher::Calendar::NFL.find.dates.detect do |list|
+    SportsApi::Fetcher::Calendar::NFL.find.detect do |list|
       (list.start_date < date) && (date < list.end_date)
     end
   end

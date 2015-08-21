@@ -23,7 +23,7 @@ module SportsApi::Fetcher::Score::ApiParser
   end
 
   def generate_calendar_day(calendar_json)
-    calendar_json.map { |date| Date.parse(date) }
+    calendar_json.map { |date| SportsApi::Model::Schedule::Day.new(Date.parse(date)) }
   end
 
   def generate_calendar_list(calendar_json)

@@ -10,7 +10,7 @@ class SportsApi::Model::League
                 :calendar,
                 :events
 
-  def calendar=(dates)
-    @calendar ||= SportsApi::Model::Schedule::Day.new(dates)
+  def calendar=(events)
+    @calendar ||= events
   end
 end

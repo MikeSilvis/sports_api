@@ -5,11 +5,11 @@ describe SportsApi::Fetcher::Score::NCF do
   describe '#find' do
     describe 'pregame' do
       let(:week) { 1 }
-      let(:find) { SportsApi::Fetcher::Score::NCF.find(week) }
+      let(:find) { SportsApi::Fetcher::Score::NCF.find_by(week) }
       let(:json_stub) { StubbedJson.get('pregame.json') }
       before { expect_any_instance_of(SportsApi::Fetcher::Score::NCF).to receive(:get).with('football', 'college-football', week: week).and_return(json_stub) }
       context 'basic league info' do
-        it { expect(find.calendar.dates.size).to eq(17) }
+        it { expect(find.calendar.size).to eq(16) }
         it { expect(find.name).to eq('NCAA - Football') }
       end
       context 'event info' do

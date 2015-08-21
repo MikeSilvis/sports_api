@@ -1,7 +1,7 @@
 class SportsApi::Model::Schedule::Day
-  attr_accessor :dates
+  attr_accessor :day
 
-  def initialize(dates)
-    self.dates = dates
+  def initialize(day)
+    self.day = day
   end
 end

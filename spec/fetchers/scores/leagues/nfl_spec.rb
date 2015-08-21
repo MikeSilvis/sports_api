@@ -9,7 +9,7 @@ describe SportsApi::Fetcher::Score::NFL do
       let(:json_stub) { StubbedJson.get('pregame.json') }
       before { expect_any_instance_of(SportsApi::Fetcher::Score::NFL).to receive(:get).with('football', 'nfl', week: week, seasontype: 1).and_return(json_stub) }
       context 'basic league info' do
-        it { expect(find.calendar.dates.size).to eq(28) }
+        it { expect(find.calendar.size).to eq(27) }
         it { expect(find.name).to eq('National Football League') }
       end
       context 'event info' do

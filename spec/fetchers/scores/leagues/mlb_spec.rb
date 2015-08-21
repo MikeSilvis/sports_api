@@ -8,7 +8,7 @@ describe SportsApi::Fetcher::Score::MLB do
       let(:json_stub) { StubbedJson.get('past.json') }
       before { expect_any_instance_of(SportsApi::Fetcher::Score::MLB).to receive(:get).with('baseball', 'mlb', dates: 20150809).and_return(json_stub) }
       context 'basic league info' do
-        it { expect(find.calendar.dates.size).to eq(36) }
+        it { expect(find.calendar.size).to eq(36) }
         it { expect(find.name).to eq('Major League Baseball') }
       end
       context 'event info' do
