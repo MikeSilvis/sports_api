@@ -28,8 +28,8 @@ class SportsApi::Fetcher::Boxscore
 
   def score
     @score ||= score_fetcher.events.detect do |event|
-                 event.gameid == gameid
-               end
+      event.gameid == gameid
+    end
   end
 
   def event_date

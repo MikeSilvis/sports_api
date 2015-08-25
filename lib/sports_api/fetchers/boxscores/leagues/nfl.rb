@@ -1,28 +1,28 @@
 class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
 
-  def self.find(date)
-    new(date).response
+  def self.find(gameid)
+    new(gameid).response
   end
 
   private
 
   def generate_score_detail
-    table = markup.at_css('.mod-container.mod-open.mod-open-gamepack')
-    table.css('thead').each_with_index.map do |header, index|
+    score_details_array.map do |detail|
       SportsApi::Model::ScoreDetail.new.tap do |score_detail|
-        score_detail.headline = header.at_css('th').content
-        score_detail.contents = table.css('tbody')[index].css('tr').map do |content_html|
+        score_detail.headline = detail[:header_info]
+        score_detail.contents = detail[:content_info].map do |content|
           SportsApi::Model::ScoreDetailContent.new.tap do |detail_content|
-            detail_content.time = content_html.css('td')[2].content
-            detail_content.detail = content_html.css('td')[3].content
-
-            markdown_abbr = content_html.css('td')[0].at_css('img').attributes['alt'].value
-            competitor = score.competitors.detect { |comp| comp.abbreviation.downcase == markdown_abbr }
-            detail_content.competitor = competitor
+            detail_content.competitor   = score.competitors.detect { |competitor| competitor.abbreviation.match(/#{content[0]}/i) }
+            detail_content.time         = content[1]
+            detail_content.detail       = content[2]
           end
         end
       end
     end
+  end
+
+  def score_details_array
+    @score_details_array ||= SportsApi::Fetcher::Helpers::ScoreDetailFinder.new(markup).details
   end
 
   def score_fetcher
