@@ -9,5 +9,10 @@ class SportsApi::Model::Competitor
                 :abbreviation,
                 :record,
                 :id,
-                :linescores
+                :linescores,
+                :rank
+
+  def rank=(rank)
+    @rank = rank == 99 ? nil : rank
+  end
 end
