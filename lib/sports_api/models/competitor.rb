@@ -13,6 +13,6 @@ class SportsApi::Model::Competitor
                 :rank
 
   def rank=(rank)
-    @rank = rank == 99 ? nil : rank
+    @rank = rank == 99 ? nil : rank.to_s
   end
 end

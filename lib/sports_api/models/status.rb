@@ -9,6 +9,10 @@ class SportsApi::Model::Status
     pregame? ? Time.parse(detail) : nil
   end
 
+  def period=(period)
+    @period = period.to_s
+  end
+
   def inprogress?
     state == 'in'
   end
