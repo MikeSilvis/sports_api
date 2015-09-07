@@ -37,14 +37,14 @@
               "detail": "Aug 26 - Sep 01",
               "value": "4",
               "startDate": "2015-08-26T07:00Z",
-              "endDate": "2015-09-02T06:59Z"
+              "endDate": "2015-09-01T07:00Z"
             },
             {
               "label": "Preseason Week 4",
               "detail": "Sep 02 - Sep 08",
               "value": "5",
               "startDate": "2015-09-02T07:00Z",
-              "endDate": "2015-09-09T06:59Z"
+              "endDate": "2015-09-08T07:00Z"
             }
           ]
         },
@@ -221,528 +221,14 @@
       ]
     }
   ],
-  "week": {
-    "number": 2
-  },
   "season": {
     "type": 1,
     "year": 2015
   },
+  "week": {
+    "number": 2
+  },
   "events": [
-    {
-      "id": "400791773",
-      "uid": "s:20~l:28~e:400791773",
-      "date": "2015-08-16T17:00Z",
-      "season": {
-        "year": 2015,
-        "type": 1
-      },
-      "competitions": [
-        {
-          "id": "400791773",
-          "uid": "s:20~l:28~e:400791773~c:400791773",
-          "date": "2015-08-16T17:00Z",
-          "attendance": 69296,
-          "timeValid": true,
-          "neutralSite": false,
-          "conferenceCompetition": false,
-          "competitors": [
-            {
-              "id": "21",
-              "uid": "s:20~l:28~t:21",
-              "type": "team",
-              "homeAway": "home",
-              "team": {
-                "id": "21",
-                "uid": "s:20~l:28~t:21",
-                "location": "Philadelphia",
-                "name": "Eagles",
-                "abbreviation": "PHI",
-                "displayName": "Philadelphia Eagles",
-                "shortDisplayName": "Eagles",
-                "color": "06424D",
-                "isActive": true,
-                "venue": {
-                  "id": "3806"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
-                },
-                "links": [
-                  {
-                    "rel": [
-                      "clubhouse",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/_/name/phi",
-                    "text": "Clubhouse",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "roster",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/roster/_/name/phi",
-                    "text": "Roster",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/stats/_/name/phi",
-                    "text": "Statistics",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/schedule/_/name/phi",
-                    "text": "Schedule",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "photos",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/photos/_/name/phi",
-                    "text": "photos",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "stadium",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/stadium/_/name/phi",
-                    "text": "Stadium",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "depthchart",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/depth/_/name/phi",
-                    "text": "Depth Chart",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "shop",
-                      "desktop"
-                    ],
-                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501646",
-                    "text": "Shop",
-                    "isExternal": true,
-                    "isPremium": false
-                  }
-                ],
-                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
-              },
-              "score": "36",
-              "linescores": [
-                {
-                  "value": 13
-                },
-                {
-                  "value": 10
-                },
-                {
-                  "value": 3
-                },
-                {
-                  "value": 10
-                }
-              ],
-              "statistics": [ ],
-              "winner": true,
-              "records": [
-                {
-                  "name": "YTD",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-0"
-                }
-              ]
-            },
-            {
-              "id": "11",
-              "uid": "s:20~l:28~t:11",
-              "type": "team",
-              "homeAway": "away",
-              "team": {
-                "id": "11",
-                "uid": "s:20~l:28~t:11",
-                "location": "Indianapolis",
-                "name": "Colts",
-                "abbreviation": "IND",
-                "displayName": "Indianapolis Colts",
-                "shortDisplayName": "Colts",
-                "color": "00417E",
-                "isActive": true,
-                "venue": {
-                  "id": "3812"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
-                },
-                "links": [
-                  {
-                    "rel": [
-                      "clubhouse",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/_/name/ind",
-                    "text": "Clubhouse",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "roster",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/roster/_/name/ind",
-                    "text": "Roster",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/stats/_/name/ind",
-                    "text": "Statistics",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ind",
-                    "text": "Schedule",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "photos",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/photos/_/name/ind",
-                    "text": "photos",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "stadium",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ind",
-                    "text": "Stadium",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "depthchart",
-                      "desktop"
-                    ],
-                    "href": "http://espn.go.com/nfl/team/depth/_/name/ind",
-                    "text": "Depth Chart",
-                    "isExternal": false,
-                    "isPremium": false
-                  },
-                  {
-                    "rel": [
-                      "shop",
-                      "desktop"
-                    ],
-                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501526",
-                    "text": "Shop",
-                    "isExternal": true,
-                    "isPremium": false
-                  }
-                ],
-                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
-              },
-              "score": "10",
-              "linescores": [
-                {
-                  "value": 3
-                },
-                {
-                  "value": 0
-                },
-                {
-                  "value": 7
-                },
-                {
-                  "value": 0
-                }
-              ],
-              "statistics": [ ],
-              "winner": false,
-              "records": [
-                {
-                  "name": "YTD",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "0-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-1"
-                }
-              ]
-            }
-          ],
-          "notes": [ ],
-          "status": {
-            "displayClock": "0:00",
-            "period": 4,
-            "type": {
-              "id": "3",
-              "state": "post",
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
-            }
-          },
-          "broadcasts": [
-            {
-              "market": "national",
-              "names": [
-                "NFL"
-              ]
-            }
-          ],
-          "tickets": [ ],
-          "leaders": [
-            {
-              "name": "receivingYards",
-              "displayName": "Receiving Yards",
-              "abbreviation": "YDS",
-              "leaders": [
-                {
-                  "displayValue": "5 REC, 61 YDS",
-                  "value": 61,
-                  "athlete": {
-                    "displayName": "Eric Tomlinson",
-                    "links": [
-                      {
-                        "href": "http://espn.go.com/nfl/player/_/id/2511973"
-                      }
-                    ],
-                    "position": {
-                      "abbreviation": "TE"
-                    },
-                    "team": {
-                      "id": "21"
-                    },
-                    "headshot": null
-                  },
-                  "team": {
-                    "id": "21"
-                  }
-                }
-              ]
-            },
-            {
-              "name": "rushingYards",
-              "displayName": "Rushing Yards",
-              "abbreviation": "YDS",
-              "leaders": [
-                {
-                  "displayValue": "10 CAR, 44 YDS, 1 TD",
-                  "value": 44,
-                  "athlete": {
-                    "displayName": "Josh Robinson",
-                    "links": [
-                      {
-                        "href": "http://espn.go.com/nfl/player/_/id/2577419"
-                      }
-                    ],
-                    "position": {
-                      "abbreviation": "RB"
-                    },
-                    "team": {
-                      "id": "11"
-                    },
-                    "headshot": null
-                  },
-                  "team": {
-                    "id": "11"
-                  }
-                }
-              ]
-            },
-            {
-              "name": "passingYards",
-              "displayName": "Passing Yards",
-              "abbreviation": "YDS",
-              "leaders": [
-                {
-                  "displayValue": "12-20, 192 YDS, 1 INT",
-                  "value": 192,
-                  "athlete": {
-                    "displayName": "Matt Barkley",
-                    "links": [
-                      {
-                        "href": "http://espn.go.com/nfl/player/_/id/15948"
-                      }
-                    ],
-                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/15948.png",
-                    "position": {
-                      "abbreviation": "QB"
-                    },
-                    "team": {
-                      "id": "21"
-                    }
-                  },
-                  "team": {
-                    "id": "21"
-                  }
-                }
-              ]
-            }
-          ],
-          "startDate": "2015-08-16T17:00Z",
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "Tim Tebow got a warm Philly welcome.",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13451184,
-                  "headline": "Tebow brings fans to their feet in Eagles preseason debut",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop"
-                    ]
-                  },
-                  "duration": 47,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0816/dm_150816_nfl_eagles_colts_highlight/dm_150816_nfl_eagles_colts_highlight.jpg"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "language": "en",
-          "rel": [
-            "summary",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/game?gameId=400791773",
-          "text": "Summary",
-          "shortText": "Summary",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
-            "boxscore",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/boxscore?gameId=400791773",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791773",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
-            "pbp",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/playbyplay?gameId=400791773",
-          "text": "Play-by-Play",
-          "shortText": "PBP",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
-            "conversation",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/conversation?gameId=400791773",
-          "text": "Conversation",
-          "shortText": "Conversation",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "weather": {
-        "conditions": "sun",
-        "temperature": 79
-      },
-      "status": {
-        "displayClock": "0:00",
-        "period": 4,
-        "type": {
-          "id": "3",
-          "state": "post",
-          "description": "Final",
-          "detail": "Final",
-          "shortDetail": "Final"
-        }
-      }
-    },
     {
       "id": "400790313",
       "uid": "s:20~l:28~e:400790313",
@@ -778,9 +264,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3814"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
                 },
                 "links": [
                   {
@@ -919,9 +402,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3493"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
                 },
                 "links": [
                   {
@@ -1152,23 +632,7 @@
             {
               "type": "Recap",
               "description": "Joe Flacco and backup quarterback Matt Schaub directed first-quarter touchdown drives, and the Baltimore Ravens beat the New Orleans Saints 30-27 Thursday night in a preseason opener.",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13437488,
-                  "headline": "Carl Davis dominant in first preseason game",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop",
-                      "handset"
-                    ]
-                  },
-                  "duration": 57,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_nfl_ravens_nation_calr_davis/dm_150814_nfl_ravens_nation_calr_davis.jpg"
-                }
-              ]
+              "shortLinkText": "Flacco sharp, Brees absent as Ravens beat Saints 30-27"
             }
           ]
         }
@@ -1201,18 +665,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400790313",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -1231,6 +683,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400790313",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400790313",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1282,9 +746,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3738"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
                 },
                 "links": [
                   {
@@ -1423,9 +884,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3798"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
                 },
                 "links": [
                   {
@@ -1663,23 +1121,7 @@
             {
               "type": "Recap",
               "description": "Tom Brady completed one of four passes before giving way to Jimmy Garoppolo, and the New England Patriots fell 22-11 to the Green Bay Packers in both teams' exhibition opener on Thursday night.",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13434713,
-                  "headline": "Dissecting Brady, Garoppolo and Patriots' preseason opener",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop",
-                      "handset"
-                    ]
-                  },
-                  "duration": 208,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_COM_NFL_Analysis_Dissecting_Brady_Garoppolo_and_Patriots_preseason_opener_2015_08_13_ESHEET/dm_150814_COM_NFL_Analysis_Dissecting_Brady_Garoppolo_and_Patriots_preseason_opener_2015_08_13_ESHEET.jpg"
-                }
-              ]
+              "shortLinkText": "Brady makes brief show in Patriots' 22-11 loss to Packers"
             }
           ]
         }
@@ -1710,14 +1152,13 @@
           "isPremium": false
         },
         {
-          "language": "en",
           "rel": [
-            "recap",
+            "highlights",
             "desktop"
           ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791766",
-          "text": "Recap",
-          "shortText": "Recap",
+          "href": "http://espn.go.com/nfl/video?gameId=400791766",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -1742,6 +1183,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791766",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791766",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1793,9 +1246,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3727"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
                 },
                 "links": [
                   {
@@ -1934,9 +1384,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3839"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
                 },
                 "links": [
                   {
@@ -2118,13 +1565,13 @@
                         "href": "http://espn.go.com/nfl/player/_/id/2576336"
                       }
                     ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/2576336.png",
                     "position": {
                       "abbreviation": "RB"
                     },
                     "team": {
                       "id": "8"
-                    },
-                    "headshot": null
+                    }
                   },
                   "team": {
                     "id": "8"
@@ -2167,23 +1614,7 @@
             {
               "type": "Recap",
               "description": "Matthew Stafford threw a 35-yard touchdown pass to Golden Tate, and rookie running back Ameer Abdullah ran for 67 yards -- 45 on one play -- to lift the Detroit Lions to a 23-3 preseason victory",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13434656,
-                  "headline": "Abdullah shows spark Lions need",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop",
-                      "handset"
-                    ]
-                  },
-                  "duration": 64,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0813/dm_150813_lions_nfl_nation_tv/dm_150813_lions_nfl_nation_tv.jpg"
-                }
-              ]
+              "shortLinkText": "Abdullah impresses in Lions' 23-3 preseason win over Jets"
             }
           ]
         }
@@ -2216,18 +1647,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791794",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -2246,6 +1665,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791794",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791794",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -2297,9 +1728,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3933"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
                 },
                 "links": [
                   {
@@ -2438,9 +1866,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3948"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
                 },
                 "links": [
                   {
@@ -2687,7 +2112,8 @@
                   "duration": 75,
                   "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_nfl_bears_nation_tv_alshon_jeffrey/dm_150814_nfl_bears_nation_tv_alshon_jeffrey.jpg"
                 }
-              ]
+              ],
+              "shortLinkText": "Dolphins' Tannehill looks sharp, Bears rally for 27-10 win"
             }
           ]
         }
@@ -2720,18 +2146,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791102",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -2750,6 +2164,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791102",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791102",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -2801,9 +2227,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3679"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
                 },
                 "links": [
                   {
@@ -2942,9 +2365,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3719"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
                 },
                 "links": [
                   {
@@ -3175,23 +2595,7 @@
             {
               "type": "Recap",
               "description": "Quarterback Josh McCown threw a touchdown pass in his debut for Cleveland and backup Johnny Manziel scrambled for a TD as the Browns, busting out new uniforms for the first time, built an early l",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13435159,
-                  "headline": "Assessing the quarterbacks in Washington's preseason win over Cleveland",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop",
-                      "handset"
-                    ]
-                  },
-                  "duration": 135,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_COM_NFL_Analysis_Assessing_the_quarterbacks_in_Washingtons_preseason_win_over_Cleveland_2015_08_13/dm_150814_COM_NFL_Analysis_Assessing_the_quarterbacks_in_Washingtons_preseason_win_over_Cleveland_2015_08_13.jpg"
-                }
-              ]
+              "shortLinkText": "McCown throws TD, Manziel scores in Browns' loss to Redskins"
             }
           ]
         }
@@ -3224,18 +2628,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791771",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -3254,6 +2646,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791771",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791771",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -3305,9 +2709,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3932"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
                 },
                 "links": [
                   {
@@ -3446,9 +2847,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3687"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
                 },
                 "links": [
                   {
@@ -3702,7 +3100,8 @@
                   "duration": 160,
                   "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_nfl_cowboys_chargers_wrap/dm_150814_nfl_cowboys_chargers_wrap.jpg"
                 }
-              ]
+              ],
+              "shortLinkText": "Woodhead scores TD in return to Bolts, who beat 'Boys 17-7"
             }
           ]
         }
@@ -3735,18 +3134,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791786",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -3765,6 +3152,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791786",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791786",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -3816,9 +3215,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3495"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
                 },
                 "links": [
                   {
@@ -3957,9 +3353,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3810"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
                 },
                 "links": [
                   {
@@ -4148,13 +3541,13 @@
                         "href": "http://espn.go.com/nfl/player/_/id/2576303"
                       }
                     ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/2576303.png",
                     "position": {
                       "abbreviation": "RB"
                     },
                     "team": {
                       "id": "10"
-                    },
-                    "headshot": null
+                    }
                   },
                   "team": {
                     "id": "10"
@@ -4200,8 +3593,8 @@
               "video": [
                 {
                   "source": "espn",
-                  "id": 13441602,
-                  "headline": "Mariota on INT: 'I can learn from it'",
+                  "id": 13441940,
+                  "headline": "Falcons' defense much improved",
                   "deviceRestrictions": {
                     "type": "whitelist",
                     "devices": [
@@ -4210,10 +3603,11 @@
                       "handset"
                     ]
                   },
-                  "duration": 69,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_Marcus_Mariota_Interview/dm_150814_Marcus_Mariota_Interview.jpg"
+                  "duration": 51,
+                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_COM_NFL_Analysis_Falcons_Wrap_up/dm_150814_COM_NFL_Analysis_Falcons_Wrap_up.jpg"
                 }
-              ]
+              ],
+              "shortLinkText": "Rookie Mariota struggles early as Falcons top Titans, 31-24"
             }
           ]
         }
@@ -4244,14 +3638,13 @@
           "isPremium": false
         },
         {
-          "language": "en",
           "rel": [
-            "recap",
+            "highlights",
             "desktop"
           ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791736",
-          "text": "Recap",
-          "shortText": "Recap",
+          "href": "http://espn.go.com/nfl/video?gameId=400791736",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -4276,6 +3669,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791736",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791736",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -4327,9 +3732,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3883"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/4"
                 },
                 "links": [
                   {
@@ -4468,9 +3870,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3628"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
                 },
                 "links": [
                   {
@@ -4701,23 +4100,7 @@
             {
               "type": "Recap",
               "description": "Joe Webb's short pass to running back Brandon Wegher led to a 42-yard touchdown with 54 seconds left in rallying the Carolina Panthers to a 25-24 win over the Buffalo Bills in each team's preseas",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13441791,
-                  "headline": "Despite QB issues, Bills show positive signs",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop",
-                      "handset"
-                    ]
-                  },
-                  "duration": 40,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0814/dm_150814_allen_on_bills/dm_150814_allen_on_bills.jpg"
-                }
-              ]
+              "shortLinkText": "Webb rallies Panthers to 25-24 preseason win over Bills"
             }
           ]
         }
@@ -4750,18 +4133,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791738",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -4780,6 +4151,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791738",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791738",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -4831,9 +4214,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3712"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
                 },
                 "links": [
                   {
@@ -4972,9 +4352,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3752"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
                 },
                 "links": [
                   {
@@ -5204,7 +4581,8 @@
           "headlines": [
             {
               "type": "Recap",
-              "description": "Ben Roethlisberger threw a 44-yard touchdown pass to Martavis Bryant on the opening drive, and the Pittsburgh Steelers were much more proficient in their second preseason game, a 23-21 loss at Ja"
+              "description": "Ben Roethlisberger threw a 44-yard touchdown pass to Martavis Bryant on the opening drive, and the Pittsburgh Steelers were much more proficient in their second preseason game, a 23-21 loss at Ja",
+              "shortLinkText": "Steelers start fast, lose 23-21 at Jaguars in preseason"
             }
           ]
         }
@@ -5237,18 +4615,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791141",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -5267,6 +4633,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791141",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791141",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -5318,9 +4696,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3874"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/12"
                 },
                 "links": [
                   {
@@ -5459,9 +4834,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3839"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/1"
                 },
                 "links": [
                   {
@@ -5677,7 +5049,7 @@
                       "abbreviation": "QB"
                     },
                     "team": {
-                      "id": "4"
+                      "id": "20"
                     }
                   },
                   "team": {
@@ -5691,7 +5063,8 @@
           "headlines": [
             {
               "type": "Recap",
-              "description": "Andy Dalton completed all three of his passes, and the Bengals' starting offense was impressive in its only drive Friday night during Cincinnati's preseason 23-10 victory over the New York Giants"
+              "description": "Andy Dalton completed all three of his passes, and the Bengals' starting offense was impressive in its only drive Friday night during Cincinnati's preseason 23-10 victory over the New York Giants",
+              "shortLinkText": "Bengals offense looks good in 23-10 win over Giants"
             }
           ]
         }
@@ -5724,18 +5097,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791144",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -5754,6 +5115,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791144",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791144",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -5805,9 +5178,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3867"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
                 },
                 "links": [
                   {
@@ -5946,9 +5316,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3494"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
                 },
                 "links": [
                   {
@@ -6178,7 +5545,8 @@
           "headlines": [
             {
               "type": "Recap",
-              "description": "Derek Carr might already have a new favorite receiver."
+              "description": "Derek Carr might already have a new favorite receiver.",
+              "shortLinkText": "Carr to Cooper leads Raiders to 18-3 exhibition win vs. Rams"
             }
           ]
         }
@@ -6211,18 +5579,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791147",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -6241,6 +5597,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791147",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791147",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -6292,9 +5660,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3673"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
                 },
                 "links": [
                   {
@@ -6433,9 +5798,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3937"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
                 },
                 "links": [
                   {
@@ -6689,7 +6051,8 @@
                   "duration": 159,
                   "thumbnail": "http://a.espncdn.com/media/motion/2015/0815/dm_150815_tyler_lockett_ltt/dm_150815_tyler_lockett_ltt.jpg"
                 }
-              ]
+              ],
+              "shortLinkText": "Osweiler leads 5 scoring drives, Broncos beat Seahawks 22-20"
             }
           ]
         }
@@ -6720,14 +6083,13 @@
           "isPremium": false
         },
         {
-          "language": "en",
           "rel": [
-            "recap",
+            "highlights",
             "desktop"
           ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791762",
-          "text": "Recap",
-          "shortText": "Recap",
+          "href": "http://espn.go.com/nfl/video?gameId=400791762",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -6752,6 +6114,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791762",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791762",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -6803,9 +6177,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3891"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/13"
                 },
                 "links": [
                   {
@@ -6944,9 +6315,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3669"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
                 },
                 "links": [
                   {
@@ -7128,13 +6496,13 @@
                         "href": "http://espn.go.com/nfl/player/_/id/3423412"
                       }
                     ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/3423412.png",
                     "position": {
                       "abbreviation": "RB"
                     },
                     "team": {
                       "id": "25"
-                    },
-                    "headshot": null
+                    }
                   },
                   "team": {
                     "id": "25"
@@ -7177,22 +6545,7 @@
             {
               "type": "Recap",
               "description": "Former Australian professional rugby player Jarryd Hayne, who was playing in his first NFL game, had a 53- yard run early in the second quarter of his NFL debut.",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13447322,
-                  "headline": "Hoyer solid in Texans' debut",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop"
-                    ]
-                  },
-                  "duration": 72,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0815/dm_150815_49ers_texans/dm_150815_49ers_texans.jpg"
-                }
-              ]
+              "shortLinkText": "Rugby star Hayne shines for 49ers in NFL debut"
             }
           ]
         }
@@ -7225,18 +6578,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791776",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -7255,6 +6596,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791776",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791776",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -7306,9 +6659,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "16"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/10"
                 },
                 "links": [
                   {
@@ -7447,9 +6797,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3886"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/11"
                 },
                 "links": [
                   {
@@ -7667,13 +7014,13 @@
                         "href": "http://espn.go.com/nfl/player/_/id/2969939"
                       }
                     ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/2969939.png",
                     "position": {
                       "abbreviation": "QB"
                     },
                     "team": {
                       "id": "27"
-                    },
-                    "headshot": null
+                    }
                   },
                   "team": {
                     "id": "27"
@@ -7687,22 +7034,7 @@
             {
               "type": "Recap",
               "description": "Jameis Winston produced mixed results at best in his first NFL action for Tampa Bay, while Teddy Bridgewater had Minnesota's passing attack in prime form to spark the Vikings in a 26-16 exhibitio",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13447704,
-                  "headline": "Winston struggles in preseason debut",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop"
-                    ]
-                  },
-                  "duration": 60,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0816/dm_150816_sc_hotn_bucs_vikings254/dm_150816_sc_hotn_bucs_vikings254.jpg"
-                }
-              ]
+              "shortLinkText": "Winston has wobbly debut; Vikes beat Bucs 26-16"
             }
           ]
         }
@@ -7735,18 +7067,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791782",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -7765,6 +7085,18 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791782",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791782",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -7816,9 +7148,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3970"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/3"
                 },
                 "links": [
                   {
@@ -7957,9 +7286,6 @@
                 "isActive": true,
                 "venue": {
                   "id": "3622"
-                },
-                "groups": {
-                  "$ref": "http://sports.core.api.prod.espninfra.starwave.com/v2/sports/football/leagues/nfl/seasons/2015/types/2/groups/6"
                 },
                 "links": [
                   {
@@ -8190,22 +7516,7 @@
             {
               "type": "Recap",
               "description": "Arizona's Carson Palmer was flawless in a brief appearance, Kansas City backup Chase Daniel threw for three touchdowns and the Chiefs beat the Cardinals 34-19 in the teams' preseason opener Satur",
-              "video": [
-                {
-                  "source": "espn",
-                  "id": 13447973,
-                  "headline": "Cardinals drop preseason opener to Chiefs",
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "settop"
-                    ]
-                  },
-                  "duration": 53,
-                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0816/dm_150816_nfl_chiefs_Cardinals/dm_150816_nfl_chiefs_Cardinals.jpg"
-                }
-              ]
+              "shortLinkText": "Palmer perfect in brief return, Daniel leads Chiefs to win"
             }
           ]
         }
@@ -8238,18 +7549,6 @@
         {
           "language": "en",
           "rel": [
-            "recap",
-            "desktop"
-          ],
-          "href": "http://espn.go.com/nfl/recap?gameId=400791778",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en",
-          "rel": [
             "pbp",
             "desktop"
           ],
@@ -8268,6 +7567,535 @@
           "href": "http://espn.go.com/nfl/conversation?gameId=400791778",
           "text": "Conversation",
           "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791778",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "state": "post",
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "400791773",
+      "uid": "s:20~l:28~e:400791773",
+      "date": "2015-08-16T17:00Z",
+      "season": {
+        "year": 2015,
+        "type": 1
+      },
+      "competitions": [
+        {
+          "id": "400791773",
+          "uid": "s:20~l:28~e:400791773~c:400791773",
+          "date": "2015-08-16T17:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "competitors": [
+            {
+              "id": "21",
+              "uid": "s:20~l:28~t:21",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "21",
+                "uid": "s:20~l:28~t:21",
+                "location": "Philadelphia",
+                "name": "Eagles",
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "shortDisplayName": "Eagles",
+                "color": "06424D",
+                "isActive": true,
+                "venue": {
+                  "id": "3806"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/phi",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/phi",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/phi",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/phi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/phi",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/phi",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/phi",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501646",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              },
+              "score": "36",
+              "linescores": [
+                {
+                  "value": 13
+                },
+                {
+                  "value": 10
+                },
+                {
+                  "value": 3
+                },
+                {
+                  "value": 10
+                }
+              ],
+              "statistics": [ ],
+              "winner": true,
+              "records": [
+                {
+                  "name": "YTD",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "uid": "s:20~l:28~t:11",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "11",
+                "uid": "s:20~l:28~t:11",
+                "location": "Indianapolis",
+                "name": "Colts",
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "shortDisplayName": "Colts",
+                "color": "00417E",
+                "isActive": true,
+                "venue": {
+                  "id": "3812"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/_/name/ind",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/roster/_/name/ind",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stats/_/name/ind",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/schedule/_/name/ind",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/photos/_/name/ind",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/stadium/_/name/ind",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "depthchart",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/nfl/team/depth/_/name/ind",
+                    "text": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501526",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+              },
+              "score": "10",
+              "linescores": [
+                {
+                  "value": 3
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 7
+                },
+                {
+                  "value": 0
+                }
+              ],
+              "statistics": [ ],
+              "winner": false,
+              "records": [
+                {
+                  "name": "YTD",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-1"
+                }
+              ]
+            }
+          ],
+          "notes": [ ],
+          "status": {
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "state": "post",
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "NFL"
+              ]
+            }
+          ],
+          "tickets": [ ],
+          "leaders": [
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "5 REC, 61 YDS",
+                  "value": 61,
+                  "athlete": {
+                    "displayName": "Eric Tomlinson",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/2511973"
+                      }
+                    ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/2511973.png",
+                    "position": {
+                      "abbreviation": "TE"
+                    },
+                    "team": {
+                      "id": "21"
+                    }
+                  },
+                  "team": {
+                    "id": "21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "10 CAR, 44 YDS, 1 TD",
+                  "value": 44,
+                  "athlete": {
+                    "displayName": "Josh Robinson",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/2577419"
+                      }
+                    ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/2577419.png",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "11"
+                    }
+                  },
+                  "team": {
+                    "id": "11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "passingYards",
+              "displayName": "Passing Yards",
+              "abbreviation": "YDS",
+              "leaders": [
+                {
+                  "displayValue": "12-20, 192 YDS, 1 INT",
+                  "value": 192,
+                  "athlete": {
+                    "displayName": "Matt Barkley",
+                    "links": [
+                      {
+                        "href": "http://espn.go.com/nfl/player/_/id/15948"
+                      }
+                    ],
+                    "headshot": "http://a.espncdn.com/i/headshots/nfl/players/full/15948.png",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "22"
+                    }
+                  },
+                  "team": {
+                    "id": "21"
+                  }
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-08-16T17:00Z",
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "Tim Tebow got a warm Philly welcome.",
+              "video": [
+                {
+                  "source": "espn",
+                  "id": 13450861,
+                  "headline": "Tebow: A lot of fun to play ball again",
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "settop",
+                      "handset"
+                    ]
+                  },
+                  "duration": 30,
+                  "thumbnail": "http://a.espncdn.com/media/motion/2015/0816/dm_150816_nfl_tim_tebow_interview/dm_150816_nfl_tim_tebow_interview.jpg"
+                }
+              ],
+              "shortLinkText": "Tebow runs for a score, Eagles beat Colts 36-10"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/game?gameId=400791773",
+          "text": "Summary",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/boxscore?gameId=400791773",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/video?gameId=400791773",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/playbyplay?gameId=400791773",
+          "text": "Play-by-Play",
+          "shortText": "PBP",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/conversation?gameId=400791773",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/nfl/recap?gameId=400791773",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
