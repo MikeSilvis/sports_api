@@ -6,7 +6,7 @@ class SportsApi::Model::Status
                 :start_time
 
   def start_time
-    Time.parse(detail)
+    pregame? ? Time.parse(detail) : nil
   end
 
   def inprogress?
