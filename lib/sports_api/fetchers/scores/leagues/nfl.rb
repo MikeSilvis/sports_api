@@ -14,7 +14,7 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   def self.find(date)
     date_obj = date_list(date)
 
-    SportsApi::Fetcher::Score::NFL.find_by(date_obj.season, date_obj.week)
+    date_obj ? SportsApi::Fetcher::Score::NFL.find_by(date_obj.season, date_obj.week) : nil
   end
 
   def self.find_by(season_type, week)

@@ -9,7 +9,7 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
   def self.find(date)
     date_obj = date_list(date)
 
-    date_obj ? SportsApi::Fetcher::Score::NCF.find_by(date_obj.week) : []
+    date_obj ? SportsApi::Fetcher::Score::NCF.find_by(date_obj.week) : nil
   end
 
   def self.find_by(week)
