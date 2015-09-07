@@ -20,6 +20,17 @@ describe SportsApi::Fetcher::Score::NCF do
         it { expect(event.score).to eq('0 - 0') }
       end
     end
+    describe 'postgame' do
+      let(:week) { 1 }
+      let(:find) { SportsApi::Fetcher::Score::NCF.find_by(week) }
+      let(:json_stub) { StubbedJson.get('postgame.json') }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::NCF).to receive(:get).with('football', 'college-football', week: week).and_return(json_stub) }
+      context 'event info' do
+        let(:event) { find.events.detect { |event| event.status.final? } }
+        it { expect(event.date).to eq(Date.new(2015, 9, 03)) }
+        it { expect(event.competitors.first.name).to eq('Georgia Tech Yellow Jackets') }
+      end
+    end
   end
 end
 
