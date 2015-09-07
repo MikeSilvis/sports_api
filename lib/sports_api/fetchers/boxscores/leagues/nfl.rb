@@ -1,5 +1,4 @@
 class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
-
   def self.find(gameid)
     new(gameid).response
   end

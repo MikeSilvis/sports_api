@@ -57,6 +57,8 @@ module SportsApi::Fetcher::Score::ApiParser
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event.gameid)
+
+        event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).first
       end
     end
   end

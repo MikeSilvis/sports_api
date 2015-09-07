@@ -17,7 +17,9 @@ class SportsApi::Model::Event
                 :competitors,
                 :status,
                 :score,
-                :headline
+                :headline,
+                :channel,
+                :location
 
   def score
     @score ||= competitors.map { |c| c.score }.join(' - ')
