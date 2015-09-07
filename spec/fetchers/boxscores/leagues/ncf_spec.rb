@@ -13,7 +13,7 @@ describe SportsApi::Fetcher::Boxscore::NCF do
 
     context 'event info' do
       let(:score_detail) { find.score_details.first }
-      it { expect(find.score.date).to eq(Date.new(2015, 9, 4)) }
+      it { expect(find.event.date).to eq(Date.new(2015, 9, 4)) }
       it { expect(find.score_details.count).to eq(4) }
       it { expect(score_detail.headline).to eq('First Quarter') }
       it { expect(score_detail.contents.first.detail).to eq('Jaden Oberkrom 53 yd FG GOOD') }

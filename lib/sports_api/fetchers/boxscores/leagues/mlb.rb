@@ -24,7 +24,7 @@ class SportsApi::Fetcher::Boxscore::MLB < SportsApi::Fetcher::Boxscore
         detail_content.detail = row.css('td')[2].content
 
         css_klass = row.css('td')[0].at_css('div').attributes['class'].value.match(/mlb-small-\d*/).to_s
-        detail_content.competitor = css_klass == home_klass ? score.competitors.first : score.competitors.last
+        detail_content.competitor = css_klass == home_klass ? event.competitors.first : event.competitors.last
       end
     end
   end

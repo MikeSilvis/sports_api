@@ -12,7 +12,7 @@ class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
         score_detail.headline = detail[:header_info]
         score_detail.contents = detail[:content_info].map do |content|
           SportsApi::Model::ScoreDetailContent.new.tap do |detail_content|
-            detail_content.competitor   = score.competitors.detect { |competitor| competitor.abbreviation.match(/#{content[0]}/i) }
+            detail_content.competitor   = event.competitors.detect { |competitor| competitor.abbreviation.match(/#{content[0]}/i) }
             detail_content.time         = content[1]
             detail_content.detail       = content[2]
           end

@@ -21,13 +21,13 @@ class SportsApi::Fetcher::Boxscore
 
   def response
     SportsApi::Model::Boxscore.new.tap do |boxscore|
-      boxscore.score = score
+      boxscore.event = event
       boxscore.score_details = generate_score_detail
     end
   end
 
-  def score
-    @score ||= score_fetcher.events.detect do |event|
+  def event
+    @event ||= score_fetcher.events.detect do |event|
       event.gameid == gameid
     end
   end
