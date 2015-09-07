@@ -12,6 +12,10 @@ class SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score
     new(date).response
   end
 
+  def league
+    SportsApi::MLB
+  end
+
   private
 
   def generate_calendar(calendar_json)
@@ -20,9 +24,5 @@ class SportsApi::Fetcher::Score::MLB < SportsApi::Fetcher::Score
 
   def json
     @json ||= get('baseball', 'mlb', dates: date.to_s.gsub(/[^\d]+/, '').to_i)
-  end
-
-  def league
-    SportsApi::MLB
   end
 end

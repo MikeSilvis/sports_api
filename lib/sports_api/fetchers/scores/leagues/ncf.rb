@@ -20,6 +20,10 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
     generate_league
   end
 
+  def league
+    SportsApi::NCF
+  end
+
   private
 
   def self.date_list(date)
@@ -34,9 +38,5 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
 
   def json
     @json ||= get('football', 'college-football', week: week)
-  end
-
-  def league
-    SportsApi::NCF
   end
 end
