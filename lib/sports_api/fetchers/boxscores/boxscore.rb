@@ -23,6 +23,7 @@ class SportsApi::Fetcher::Boxscore
     SportsApi::Model::Boxscore.new.tap do |boxscore|
       boxscore.event = event
       boxscore.score_details = generate_score_detail
+      boxscore.location = location
     end
   end
 
@@ -34,5 +35,11 @@ class SportsApi::Fetcher::Boxscore
 
   def event_date
     @event_date ||= Date.parse(markup.at_css('.game-date-time span').attributes['data-date'].value)
+  end
+
+  private
+
+  def location
+    @location ||= markup.at_css('.game-field .caption-wrapper').content.strip
   end
 end
