@@ -23,7 +23,7 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
   private
 
   def self.date_list(date)
-    SportsApi::Fetcher::Calendar::NCF.find.dates.detect do |list|
+    SportsApi::Fetcher::Calendar::NCF.find.detect do |list|
       (list.start_date < date) && (date < list.end_date)
     end
   end
