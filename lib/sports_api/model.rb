@@ -1,5 +1,5 @@
-require 'sports_api'
+module SportsApi
+  module Model
 
-module SportsApi::Model
-
+  end
 end
