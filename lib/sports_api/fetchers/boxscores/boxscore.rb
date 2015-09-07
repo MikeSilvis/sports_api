@@ -40,6 +40,9 @@ class SportsApi::Fetcher::Boxscore
   private
 
   def location
-    @location ||= markup.at_css('.game-field .caption-wrapper').content.strip
+    @location ||= begin
+                    div = markup.at_css('.game-field .caption-wrapper')
+                    div ? div.content.strip : nil
+                  end
   end
 end

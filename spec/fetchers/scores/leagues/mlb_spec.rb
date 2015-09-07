@@ -30,7 +30,7 @@ describe SportsApi::Fetcher::Score::MLB do
       context 'event' do
         let(:event) { find.events.detect { |event| event.status.inprogress? } }
         it { expect(event.status.display_clock).to eq('0:00') }
-        it { expect(event.status.period).to eq(4) }
+        it { expect(event.status.period).to eq('4') }
         it { expect(event.status.detail).to eq('Mid 4th') }
       end
     end
@@ -44,7 +44,7 @@ describe SportsApi::Fetcher::Score::MLB do
       context 'event' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.status.display_clock).to eq('0:00') }
-        it { expect(event.status.period).to eq(0) }
+        it { expect(event.status.period).to eq('0') }
         it { expect(event.status.detail).to eq("8/10 - 7:10 PM EDT") }
         it { expect(event.status.start_time).to eq(Time.new(2015, 8, 10, 16, 10, 0, '-07:00')) }
       end
