@@ -32,7 +32,7 @@ class SportsApi::Fetcher::Helpers::ScoreDetailFinder
 
     current_section = 0
     summary.css('tr').each_with_index do |row, index|
-      if (row.attributes['class'] && row.attributes['class'].content == header_css rescue byebug)
+      if row.attributes['class'] && row.attributes['class'].content == header_css
         score_detail << {
           header_info: row.at_css('th').content,
           content_info: []
