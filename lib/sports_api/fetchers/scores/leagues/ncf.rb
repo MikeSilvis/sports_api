@@ -35,4 +35,8 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
   def json
     @json ||= get('football', 'college-football', week: week)
   end
+
+  def league
+    SportsApi::NCF
+  end
 end

@@ -36,4 +36,8 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   def json
     @json ||= get('football', 'nfl', week: week, seasontype: season_type)
   end
+
+  def league
+    SportsApi::NFL
+  end
 end

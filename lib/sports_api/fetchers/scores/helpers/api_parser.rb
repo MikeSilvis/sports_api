@@ -1,4 +1,6 @@
 module SportsApi::Fetcher::Score::ApiParser
+  attr_accessor :league
+
   def response
     generate_league
   end
@@ -49,6 +51,7 @@ module SportsApi::Fetcher::Score::ApiParser
       SportsApi::Model::Event.new.tap do |event|
         event.date = Date.parse(event_json['date'])
         event.gameid = event_json['id']
+        event.league = self.league
 
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
