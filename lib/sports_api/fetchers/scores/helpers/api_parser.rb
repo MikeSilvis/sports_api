@@ -56,7 +56,7 @@ module SportsApi::Fetcher::Score::ApiParser
 
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
-        event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event.gameid)
+        event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event)
 
         event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).first
       end
@@ -103,14 +103,15 @@ module SportsApi::Fetcher::Score::ApiParser
     end
   end
 
-  def generate_headline(headline_json, gameid)
+  def generate_headline(headline_json, event)
     SportsApi::Model::Headline.new.tap do |headline|
       video_json = headline_json['video'].to_a.first.to_h
 
       headline.title = video_json.empty? ? headline_json['description'] : video_json['headline']
       headline.content = headline_json['description']
       headline.photo = video_json['thumbnail']
-      headline.url = "http://espn.go.com/#{league}/recap?gameId=#{gameid}"
+
+      headline.url = "http://espn.go.com/#{league}/#{event.status.pregame? ? 'preview' : 'recap'}?gameId=#{event.gameid}"
     end
   end
 end

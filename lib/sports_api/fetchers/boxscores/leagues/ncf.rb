@@ -22,7 +22,7 @@ class SportsApi::Fetcher::Boxscore::NCF < SportsApi::Fetcher::Boxscore
   end
 
   def score_details_array
-    @score_details_array ||= SportsApi::Fetcher::Helpers::ScoreDetailFinder.new(markup).details
+    @score_details_array ||= self.event.status.pregame? ? [] : SportsApi::Fetcher::Helpers::ScoreDetailFinder.new(markup).details
   end
 
   def score_fetcher
