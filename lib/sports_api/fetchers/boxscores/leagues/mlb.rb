@@ -20,7 +20,7 @@ class SportsApi::Fetcher::Boxscore::MLB < SportsApi::Fetcher::Boxscore
     table = markup.css('.mod-container.mod-open.mod-open-gamepack')[4]
     table.css('tbody tr.even, tr.odd').map do |row|
       SportsApi::Model::ScoreDetailContent.new.tap do |detail_content|
-        detail_content.time = row.css('td')[1]
+        detail_content.time = row.css('td')[1].content
         detail_content.detail = row.css('td')[2].content
 
         css_klass = row.css('td')[0].at_css('div').attributes['class'].value.match(/mlb-small-\d*/).to_s
@@ -39,6 +39,10 @@ class SportsApi::Fetcher::Boxscore::MLB < SportsApi::Fetcher::Boxscore
 
   def get_klass(position)
     markup.css('.team-color-strip')[position].at_css('th div').attributes['class'].value.match(/mlb-small-\d*/).to_s
+  end
+
+  def event_date
+    @event_date ||= Date.parse(markup.at_css('.game-time-location p').content)
   end
 
   def markup

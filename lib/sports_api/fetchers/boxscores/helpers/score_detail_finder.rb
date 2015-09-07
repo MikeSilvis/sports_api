@@ -12,31 +12,29 @@ class SportsApi::Fetcher::Helpers::ScoreDetailFinder
   private
 
   def find_details
-    css = '.mod-container.mod-open.mod-open-gamepack'
+    css = '#gamepackage-scoring-wrap table'
 
-    score_detail_finder(css, 'th', 'td') do |content, index|
+    score_detail_finder(css, 'highlight', 'td') do |content, index|
       case index
       when 0
-        content.at_css('img').attributes['alt'].content
+        content.at_css('img').attributes['src'].content.match(/\/500\/\w*/).to_s.gsub('/500/', '')
       when 1
-        nil
-      when 3
-        content.children.first.content
+        [content.at_css('.time-stamp').content, content.at_css('.headline').content]
       else
-        content.content
+        nil
       end
     end
   end
 
   def score_detail_finder(table_css, header_css, content_css,  &block)
-    summary = markup.at_css(table_css)
+    summary = markup.css(table_css).last
     score_detail = []
 
     current_section = 0
     summary.css('tr').each_with_index do |row, index|
-      if row.at_css(header_css)
+      if (row.attributes['class'] && row.attributes['class'].content == header_css rescue byebug)
         score_detail << {
-          header_info: row.at_css(header_css).content,
+          header_info: row.at_css('th').content,
           content_info: []
         }
 
@@ -47,7 +45,7 @@ class SportsApi::Fetcher::Helpers::ScoreDetailFinder
           content << yield(box, i)
         end
 
-        score_detail[current_section - 1][:content_info] << content.compact.map(&:strip).take(3)
+        score_detail[current_section - 1][:content_info] << content.compact.flatten.map(&:strip).take(3)
       end
     end
 

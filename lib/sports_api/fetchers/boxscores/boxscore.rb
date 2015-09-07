@@ -33,6 +33,6 @@ class SportsApi::Fetcher::Boxscore
   end
 
   def event_date
-    @event_date ||= Date.parse(markup.at_css('.game-time-location p').content)
+    @event_date ||= Date.parse(markup.at_css('.game-date-time span').attributes['data-date'].value)
   end
 end

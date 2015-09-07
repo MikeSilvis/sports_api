@@ -30,6 +30,6 @@ class SportsApi::Fetcher::Boxscore::NFL < SportsApi::Fetcher::Boxscore
   end
 
   def markup
-    @markup ||= get('nfl/boxscore', gameId: gameid)
+    @markup ||= get('nfl/game', gameId: gameid)
   end
 end
