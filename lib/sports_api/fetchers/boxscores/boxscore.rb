@@ -6,6 +6,10 @@ class SportsApi::Fetcher::Boxscore
     self.gameid = gameid
   end
 
+  def gameid=(gameid)
+    @gameid = gameid.to_i
+  end
+
   def self.find(league, gameid)
     case league
     when SportsApi::NFL
