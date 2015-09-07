@@ -20,19 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-#### Supported leagues
-
-The gem only supports the following leagues:
-
-```ruby
-ESPN.leagues
-# => ["nfl", "mlb", "nba", "ncf"]
-```
-
 #### Get scores
 ``` ruby
 week = 1
 SportsApi::Fetcher::Score::NFL.find(week)
+```
+
+#### Get Boxscores
+``` ruby
+gameid = 400791773
+SportsApi::Fetcher::Boxscore::NFL.find(gameid)
 ```
 
 ## Development
