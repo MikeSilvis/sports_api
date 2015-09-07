@@ -39,8 +39,6 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
       end
     end
 
-    byebug
-
     date_obj
   end
 
