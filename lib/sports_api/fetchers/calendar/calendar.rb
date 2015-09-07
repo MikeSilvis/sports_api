@@ -1,14 +1,14 @@
 class SportsApi::Fetcher::Calendar
-  def self.find(league, gameid)
+  def self.find(league)
     case league
     when SportsApi::NCF
-      SportsApi::Fetcher::Calendar::NFL.find(gameid)
+      SportsApi::Fetcher::Calendar::NFL.find
     when SportsApi::NCF
-      SportsApi::Fetcher::Calendar::NCF.find(gameid)
+      SportsApi::Fetcher::Calendar::NCF.find
     when SportsApi::NBA
-      SportsApi::Fetcher::Calendar::NBA.find(gameid)
+      SportsApi::Fetcher::Calendar::NBA.find
     when SportsApi::MLB
-      SportsApi::Fetcher::Calendar::MLB.find(gameid)
+      SportsApi::Fetcher::Calendar::MLB.find
     end
   end
 end
