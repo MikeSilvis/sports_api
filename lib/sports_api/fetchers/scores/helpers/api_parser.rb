@@ -52,6 +52,7 @@ module SportsApi::Fetcher::Score::ApiParser
         event.date = Date.parse(event_json['date'])
         event.gameid = event_json['id']
         event.league = self.league
+        event.line = ((event_json['competitions'].first['odds'] || []).first || {})['details']
 
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
