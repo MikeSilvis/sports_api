@@ -83,7 +83,7 @@ module SportsApi::Fetcher::Score::ApiParser
         competitor.linescores = competitor_json['linescores'].to_a.map { |l| l['value'] }
         competitor.winner = competitor_json['winner']
 
-        competitor.name = competitor_json['team']['displayName']
+        competitor.name = competitor_json['team']['shortDisplayName']
         competitor.abbreviation = competitor_json['team']['abbreviation']
         competitor.location = competitor_json['team']['location']
         competitor.id = competitor_json['team']['id']
