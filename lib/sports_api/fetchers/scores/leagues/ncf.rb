@@ -1,3 +1,5 @@
+require_relative '../helpers/api_parser'
+
 class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
   include SportsApi::Fetcher::ESPN::Api
   include SportsApi::Fetcher::Score::ApiParser

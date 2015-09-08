@@ -15,7 +15,7 @@ describe SportsApi::Fetcher::Score::NCF do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.date).to eq(Date.new(2015, 9, 04)) }
-        it { expect(event.competitors.first.name).to eq('Utah State Aggies') }
+        it { expect(event.competitors.first.name).to eq('Aggies') }
         it { expect(event.competitors.first.record.summary).to eq('0-0') }
         it { expect(event.score).to eq('0 - 0') }
       end
@@ -28,7 +28,7 @@ describe SportsApi::Fetcher::Score::NCF do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
         it { expect(event.date).to eq(Date.new(2015, 9, 03)) }
-        it { expect(event.competitors.first.name).to eq('Georgia Tech Yellow Jackets') }
+        it { expect(event.competitors.first.name).to eq('Yellow Jackets') }
       end
     end
   end

@@ -15,7 +15,7 @@ describe SportsApi::Fetcher::Score::NFL do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.date).to eq(Date.new(2015, 9, 11)) }
-        it { expect(event.competitors.first.name).to eq('New England Patriots') }
+        it { expect(event.competitors.first.name).to eq('Patriots') }
         it { expect(event.competitors.first.record.summary).to eq('0-0') }
         it { expect(event.score).to eq('0 - 0') }
       end
@@ -28,7 +28,7 @@ describe SportsApi::Fetcher::Score::NFL do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.inprogress? } }
         it { expect(event.date).to eq(Date.new(2015, 8, 10)) }
-        it { expect(event.competitors.first.name).to eq('Minnesota Vikings') }
+        it { expect(event.competitors.first.name).to eq('Vikings') }
         it { expect(event.competitors.first.record.summary).to eq('0-0') }
         it { expect(event.score).to eq('7 - 3') }
       end
