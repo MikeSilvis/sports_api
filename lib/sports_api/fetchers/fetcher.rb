@@ -6,7 +6,13 @@ module SportsApi::Fetcher
   module ESPN
     module Api
       def get(league_string, league, params)
-        url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard"
+        if league == 'ncf'
+          url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?limit=300&groups=80"
+        elsif league == 'nba'
+          url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard?dates=20151216"
+        else
+          url = "http://site.api.espn.com/apis/site/v2/sports/#{league_string}/#{league}/scoreboard"
+        end
         response = Http.get(url, params)
         if response.status == 200
           JSON.parse(response.body)
