@@ -28,9 +28,19 @@ class SportsApi::Fetcher::Score::NFL < SportsApi::Fetcher::Score
   private
 
   def self.date_list(date)
-    SportsApi::Fetcher::Calendar::NFL.find.detect do |list|
+    date_obj = SportsApi::Fetcher::Calendar::NFL.find.detect do |list|
       (list.start_date < date) && (date < list.end_date)
     end
+
+    ## if no date found, try removing a day
+    unless date_obj
+      date = date - 1
+      return SportsApi::Fetcher::Calendar::NFL.find.detect do |list|
+        (list.start_date <= date) && (date <= list.end_date)
+      end
+    end
+
+    date_obj
   end
 
   def generate_calendar(calendar_json)
