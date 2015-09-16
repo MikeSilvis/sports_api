@@ -49,7 +49,7 @@ module SportsApi::Fetcher::Score::ApiParser
   def generate_events
     json['events'].map do |event_json|
       SportsApi::Model::Event.new.tap do |event|
-        event.date = Date.parse(event_json['date'])
+        event.date = DateTime.parse(event_json['date'])
         event.gameid = event_json['id']
         event.league = self.league
         event.line = ((event_json['competitions'].first['odds'] || []).first || {})['details']

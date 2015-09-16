@@ -14,7 +14,7 @@ describe SportsApi::Fetcher::Boxscore::NFL do
 
     context 'event info' do
       let(:score_detail) { find.score_details.first }
-      it { expect(find.event.date).to eq(Date.new(2015, 8, 16)) }
+      it { expect(find.event.date.to_date).to eq(Date.new(2015, 8, 16)) }
       it { expect(find.score_details.count).to eq(4) }
       it { expect(score_detail.headline).to eq('First Quarter') }
       it { expect(score_detail.contents.first.detail).to eq('Adam Vinatieri 32 Yd Field Goal') }

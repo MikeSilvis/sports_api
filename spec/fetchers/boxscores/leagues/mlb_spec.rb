@@ -11,7 +11,7 @@ describe SportsApi::Fetcher::Boxscore::MLB do
 
     context 'event info' do
       let(:score_detail) { find.score_details.first }
-      it { expect(find.event.date).to eq(Date.new(2015, 8, 16)) }
+      it { expect(find.event.date.to_date).to eq(Date.new(2015, 8, 16)) }
       it { expect(find.score_details.count).to eq(1) }
       it { expect(score_detail.headline).to eq(nil) }
       it { expect(score_detail.contents.first.detail).to eq('Donaldson singled to right, Tulowitzki scored.') }

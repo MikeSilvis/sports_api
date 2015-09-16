@@ -14,7 +14,7 @@ describe SportsApi::Fetcher::Score::NFL do
       end
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
-        it { expect(event.date).to eq(Date.new(2015, 9, 11)) }
+        it { expect(event.date.to_date).to eq(Date.new(2015, 9, 11)) }
         it { expect(event.competitors.first.name).to eq('Patriots') }
         it { expect(event.competitors.first.record.summary).to eq('0-0') }
         it { expect(event.score).to eq('0 - 0') }
@@ -42,7 +42,7 @@ describe SportsApi::Fetcher::Score::NFL do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
         let(:thumbnail_url) { 'http://a.espncdn.com/media/motion/2015/0816/dm_150816_nfl_eagles_colts_highlight/dm_150816_nfl_eagles_colts_highlight.jpg' }
-        it { expect(event.date).to eq(Date.new(2015, 8, 16)) }
+        it { expect(event.date.to_date).to eq(Date.new(2015, 8, 16)) }
         it { expect(event.headline.photo).to eq(thumbnail_url) }
       end
     end

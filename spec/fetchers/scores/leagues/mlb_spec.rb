@@ -13,7 +13,7 @@ describe SportsApi::Fetcher::Score::MLB do
       end
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
-        it { expect(event.date).to eq(Date.new(2015, 8, 9)) }
+        it { expect(event.date.to_date).to eq(Date.new(2015, 8, 9)) }
         it { expect(event.competitors.first.name).to eq('Yankees') }
         it { expect(event.competitors.first.record.summary).to eq('61-49') }
         it { expect(event.score).to eq('0 - 2') }
