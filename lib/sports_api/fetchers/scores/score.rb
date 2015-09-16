@@ -14,4 +14,23 @@ class SportsApi::Fetcher::Score
       SportsApi::Fetcher::Score::MLB.find(date)
     end
   end
+
+  private
+
+  def self.date_list(date)
+    date_obj = SportsApi::Fetcher::Calendar.find(league).detect do |list|
+      (list.start_date < date) && (date < list.end_date)
+    end
+
+    ## if no date found, try removing a day
+    unless date_obj
+      date = date - 1
+      return SportsApi::Fetcher::Calendar::find(league).detect do |list|
+        (list.start_date <= date) && (date <= list.end_date)
+      end
+    end
+
+    date_obj
+  end
+
 end
