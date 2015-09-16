@@ -53,12 +53,14 @@ module SportsApi::Fetcher::Score::ApiParser
         event.gameid = event_json['id']
         event.league = self.league
         event.line = ((event_json['competitions'].first['odds'] || []).first || {})['details']
+        event.over_under = ((event_json['competitions'].first['odds'] || []).first || {})['overUnder']
 
         event.status = generate_status(event_json)
         event.competitors = generate_competitors(event_json)
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event)
 
-        event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).first
+        event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).join("/")
+        event.neutral = event_json['neutralSite'] # this is pulling nil; don't have the right target
       end
     end
   end
