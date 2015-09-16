@@ -7,8 +7,8 @@ describe SportsApi::Fetcher::Boxscore::NCF do
     let(:json_stub_week_1) { StubbedJson.get('postgame-week-1.json') }
     let(:html_stub) { StubbedHtml.get("#{gameid}.html") }
     let(:expect_instance) { allow_any_instance_of(SportsApi::Fetcher::Score::NCF) }
-    before { expect_instance.to receive(:get).with('football', 'college-football', week: 1).and_return(json_stub_week_1) }
-    before { expect_instance.to receive(:get).with('football', 'college-football', week: 1).and_return(json_stub_week_1) }
+    before { expect_instance.to receive(:get).with('football', 'college-football', week: 1, limit: 300, groups: 80).and_return(json_stub_week_1) }
+    before { expect_instance.to receive(:get).with('football', 'college-football', week: 1, limit: 300, groups: 80).and_return(json_stub_week_1) }
     before { expect_any_instance_of(SportsApi::Fetcher::Boxscore::NCF).to receive(:get).with('ncf/game', gameId: gameid).and_return(html_stub) }
 
     context 'event info' do
