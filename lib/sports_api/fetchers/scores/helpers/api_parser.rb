@@ -60,8 +60,7 @@ module SportsApi::Fetcher::Score::ApiParser
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event)
 
         event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).join("/")
-        # event.conference = (((event_json['competitions'].first['groups'] || []).first || {})['shortName'] || []).first
-        # event.neutral = event_json['competitions']['neutralSite'].first
+        event.neutral = event_json['competitions'].first['neutralSite']
       end
     end
   end
@@ -90,6 +89,9 @@ module SportsApi::Fetcher::Score::ApiParser
         competitor.abbreviation = competitor_json['team']['abbreviation']
         competitor.location = competitor_json['team']['location']
         competitor.id = competitor_json['team']['id']
+        competitor.conference_id = competitor_json['team']['conferenceId']
+        # NCF Conference API: http://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard/conferences?groups=80%2C81
+        # NCB Conference API: Don't know yet
 
         competitor.record = generate_record((competitor_json['records'] || []).first)
         competitor.rank = (competitor_json['curatedRank'] || {})['current']

@@ -18,8 +18,8 @@ describe SportsApi::Fetcher::Score::NCF do
         it { expect(event.competitors.first.name).to eq('Tigers') }
         it { expect(event.competitors.first.record.summary).to eq('4-3') }
         it { expect(event.score).to eq('0 - 0') }
-        # it { expect(event.conference).to eq("SEC")}
-        # it { expect(event.neutral).to eq(false)}
+        it { expect(event.competitors.first.conference_id).to eq('8') }
+        it { expect(event.neutral).to eq(false)}
       end
     end
     describe 'postgame' do
