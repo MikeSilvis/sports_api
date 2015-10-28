@@ -14,10 +14,12 @@ describe SportsApi::Fetcher::Score::NCF do
       end
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
-        it { expect(event.date.to_date).to eq(Date.new(2015, 9, 04)) }
-        it { expect(event.competitors.first.name).to eq('Aggies') }
-        it { expect(event.competitors.first.record.summary).to eq('0-0') }
+        it { expect(event.date.to_date).to eq(Date.new(2015, 10, 31)) }
+        it { expect(event.competitors.first.name).to eq('Tigers') }
+        it { expect(event.competitors.first.record.summary).to eq('4-3') }
         it { expect(event.score).to eq('0 - 0') }
+        # it { expect(event.conference).to eq("SEC")}
+        # it { expect(event.neutral).to eq(false)}
       end
     end
     describe 'postgame' do

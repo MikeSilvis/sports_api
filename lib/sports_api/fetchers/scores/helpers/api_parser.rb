@@ -60,7 +60,8 @@ module SportsApi::Fetcher::Score::ApiParser
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event)
 
         event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).join("/")
-        event.neutral = event_json['neutralSite'] # this is pulling nil; don't have the right target
+        # event.conference = (((event_json['competitions'].first['groups'] || []).first || {})['shortName'] || []).first
+        # event.neutral = event_json['competitions']['neutralSite'].first
       end
     end
   end
