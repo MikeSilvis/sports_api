@@ -1,0 +1,3532 @@
+{
+  "leagues": [
+    {
+      "id": "46",
+      "uid": "s:40~l:46",
+      "name": "National Basketball Association",
+      "abbreviation": "NBA",
+      "calendarType": "day",
+      "calendar": [
+        "2015-10-02T07:00Z",
+        "2015-10-03T07:00Z",
+        "2015-10-04T07:00Z",
+        "2015-10-05T07:00Z",
+        "2015-10-06T07:00Z",
+        "2015-10-07T07:00Z",
+        "2015-10-08T07:00Z",
+        "2015-10-09T07:00Z",
+        "2015-10-10T07:00Z",
+        "2015-10-11T07:00Z",
+        "2015-10-12T07:00Z",
+        "2015-10-13T07:00Z",
+        "2015-10-14T07:00Z",
+        "2015-10-15T07:00Z",
+        "2015-10-16T07:00Z",
+        "2015-10-17T07:00Z",
+        "2015-10-18T07:00Z",
+        "2015-10-19T07:00Z",
+        "2015-10-20T07:00Z",
+        "2015-10-21T07:00Z",
+        "2015-10-22T07:00Z",
+        "2015-10-23T07:00Z",
+        "2015-10-27T07:00Z",
+        "2015-10-28T07:00Z",
+        "2015-10-29T07:00Z",
+        "2015-10-30T07:00Z",
+        "2015-10-31T07:00Z",
+        "2015-11-01T07:00Z",
+        "2015-11-02T08:00Z",
+        "2015-11-03T08:00Z",
+        "2015-11-04T08:00Z",
+        "2015-11-05T08:00Z",
+        "2015-11-06T08:00Z",
+        "2015-11-07T08:00Z",
+        "2015-11-08T08:00Z",
+        "2015-11-09T08:00Z",
+        "2015-11-10T08:00Z",
+        "2015-11-11T08:00Z",
+        "2015-11-12T08:00Z",
+        "2015-11-13T08:00Z",
+        "2015-11-14T08:00Z",
+        "2015-11-15T08:00Z",
+        "2015-11-16T08:00Z",
+        "2015-11-17T08:00Z",
+        "2015-11-18T08:00Z",
+        "2015-11-19T08:00Z",
+        "2015-11-20T08:00Z",
+        "2015-11-21T08:00Z",
+        "2015-11-22T08:00Z",
+        "2015-11-23T08:00Z",
+        "2015-11-24T08:00Z",
+        "2015-11-25T08:00Z",
+        "2015-11-27T08:00Z",
+        "2015-11-28T08:00Z",
+        "2015-11-29T08:00Z",
+        "2015-11-30T08:00Z",
+        "2015-12-01T08:00Z",
+        "2015-12-02T08:00Z",
+        "2015-12-03T08:00Z",
+        "2015-12-04T08:00Z",
+        "2015-12-05T08:00Z",
+        "2015-12-06T08:00Z",
+        "2015-12-07T08:00Z",
+        "2015-12-08T08:00Z",
+        "2015-12-09T08:00Z",
+        "2015-12-10T08:00Z",
+        "2015-12-11T08:00Z",
+        "2015-12-12T08:00Z",
+        "2015-12-13T08:00Z",
+        "2015-12-14T08:00Z",
+        "2015-12-15T08:00Z",
+        "2015-12-16T08:00Z",
+        "2015-12-17T08:00Z",
+        "2015-12-18T08:00Z",
+        "2015-12-19T08:00Z",
+        "2015-12-20T08:00Z",
+        "2015-12-21T08:00Z",
+        "2015-12-22T08:00Z",
+        "2015-12-23T08:00Z",
+        "2015-12-25T08:00Z",
+        "2015-12-26T08:00Z",
+        "2015-12-27T08:00Z",
+        "2015-12-28T08:00Z",
+        "2015-12-29T08:00Z",
+        "2015-12-30T08:00Z",
+        "2015-12-31T08:00Z",
+        "2016-01-01T08:00Z",
+        "2016-01-02T08:00Z",
+        "2016-01-03T08:00Z",
+        "2016-01-04T08:00Z",
+        "2016-01-05T08:00Z",
+        "2016-01-06T08:00Z",
+        "2016-01-07T08:00Z",
+        "2016-01-08T08:00Z",
+        "2016-01-09T08:00Z",
+        "2016-01-10T08:00Z",
+        "2016-01-11T08:00Z",
+        "2016-01-12T08:00Z",
+        "2016-01-13T08:00Z",
+        "2016-01-14T08:00Z",
+        "2016-01-15T08:00Z",
+        "2016-01-16T08:00Z",
+        "2016-01-17T08:00Z",
+        "2016-01-18T08:00Z",
+        "2016-01-19T08:00Z",
+        "2016-01-20T08:00Z",
+        "2016-01-21T08:00Z",
+        "2016-01-22T08:00Z",
+        "2016-01-23T08:00Z",
+        "2016-01-24T08:00Z",
+        "2016-01-25T08:00Z",
+        "2016-01-26T08:00Z",
+        "2016-01-27T08:00Z",
+        "2016-01-28T08:00Z",
+        "2016-01-29T08:00Z",
+        "2016-01-30T08:00Z",
+        "2016-01-31T08:00Z",
+        "2016-02-01T08:00Z",
+        "2016-02-02T08:00Z",
+        "2016-02-03T08:00Z",
+        "2016-02-04T08:00Z",
+        "2016-02-05T08:00Z",
+        "2016-02-06T08:00Z",
+        "2016-02-07T08:00Z",
+        "2016-02-08T08:00Z",
+        "2016-02-09T08:00Z",
+        "2016-02-10T08:00Z",
+        "2016-02-11T08:00Z",
+        "2016-02-14T08:00Z",
+        "2016-02-18T08:00Z",
+        "2016-02-19T08:00Z",
+        "2016-02-20T08:00Z",
+        "2016-02-21T08:00Z",
+        "2016-02-22T08:00Z",
+        "2016-02-23T08:00Z",
+        "2016-02-24T08:00Z",
+        "2016-02-25T08:00Z",
+        "2016-02-26T08:00Z",
+        "2016-02-27T08:00Z",
+        "2016-02-28T08:00Z",
+        "2016-02-29T08:00Z",
+        "2016-03-01T08:00Z",
+        "2016-03-02T08:00Z",
+        "2016-03-03T08:00Z",
+        "2016-03-04T08:00Z",
+        "2016-03-05T08:00Z",
+        "2016-03-06T08:00Z",
+        "2016-03-07T08:00Z",
+        "2016-03-08T08:00Z",
+        "2016-03-09T08:00Z",
+        "2016-03-10T08:00Z",
+        "2016-03-11T08:00Z",
+        "2016-03-12T08:00Z",
+        "2016-03-13T08:00Z",
+        "2016-03-14T07:00Z",
+        "2016-03-15T07:00Z",
+        "2016-03-16T07:00Z",
+        "2016-03-17T07:00Z",
+        "2016-03-18T07:00Z",
+        "2016-03-19T07:00Z",
+        "2016-03-20T07:00Z",
+        "2016-03-21T07:00Z",
+        "2016-03-22T07:00Z",
+        "2016-03-23T07:00Z",
+        "2016-03-24T07:00Z",
+        "2016-03-25T07:00Z",
+        "2016-03-26T07:00Z",
+        "2016-03-27T07:00Z",
+        "2016-03-28T07:00Z",
+        "2016-03-29T07:00Z",
+        "2016-03-30T07:00Z",
+        "2016-03-31T07:00Z",
+        "2016-04-01T07:00Z",
+        "2016-04-02T07:00Z",
+        "2016-04-03T07:00Z",
+        "2016-04-05T07:00Z",
+        "2016-04-06T07:00Z",
+        "2016-04-07T07:00Z",
+        "2016-04-08T07:00Z",
+        "2016-04-09T07:00Z",
+        "2016-04-10T07:00Z",
+        "2016-04-11T07:00Z",
+        "2016-04-12T07:00Z",
+        "2016-04-13T07:00Z"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "400827926",
+      "uid": "s:40~l:46~e:400827926",
+      "date": "2015-11-01T19:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827926",
+          "uid": "s:40~l:46~e:400827926~c:400827926",
+          "date": "2015-11-01T19:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1893",
+            "fullName": "Time Warner Cable Arena",
+            "address": {
+              "city": "Charlotte",
+              "state": "NC"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "30",
+              "uid": "s:40~l:46~t:30",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "30",
+                "uid": "s:40~l:46~t:30",
+                "location": "Charlotte",
+                "name": "Hornets",
+                "abbreviation": "CHA",
+                "displayName": "Charlotte Hornets",
+                "shortDisplayName": "Hornets",
+                "color": "1D1060",
+                "isActive": true,
+                "venue": {
+                  "id": "1893"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/cha",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/cha",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/cha",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/cha",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/cha",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/cha",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528636",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/charlotte-hornets-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/cha.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 22,
+                    "previous": 20,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "uid": "s:40~l:46~t:1",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "1",
+                "uid": "s:40~l:46~t:1",
+                "location": "Atlanta",
+                "name": "Hawks",
+                "abbreviation": "ATL",
+                "displayName": "Atlanta Hawks",
+                "shortDisplayName": "Hawks",
+                "color": "002B5C",
+                "isActive": true,
+                "venue": {
+                  "id": "1827"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/atl",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/atl",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/atl",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/atl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/atl",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/atl",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528596",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/atlanta-hawks-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/atl.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 8,
+                    "previous": 9,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": [
+                {
+                  "name": "rebounds",
+                  "abbreviation": "REB",
+                  "displayValue": "40",
+                  "rankDisplayValue": "7th"
+                },
+                {
+                  "name": "avgRebounds",
+                  "abbreviation": "RPG",
+                  "displayValue": "40.0",
+                  "rankDisplayValue": "5th"
+                },
+                {
+                  "name": "assists",
+                  "abbreviation": "AST",
+                  "displayValue": "22",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "fieldGoalsAttempted",
+                  "abbreviation": "FGA",
+                  "displayValue": "82",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "fieldGoalsMade",
+                  "abbreviation": "FGM",
+                  "displayValue": "37",
+                  "rankDisplayValue": "2nd"
+                },
+                {
+                  "name": "fieldGoalPct",
+                  "abbreviation": "FG%",
+                  "displayValue": "45.1"
+                },
+                {
+                  "name": "freeThrowPct",
+                  "abbreviation": "FT%",
+                  "displayValue": "80.0"
+                },
+                {
+                  "name": "freeThrowsAttempted",
+                  "abbreviation": "FTA",
+                  "displayValue": "15",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "freeThrowsMade",
+                  "abbreviation": "FTM",
+                  "displayValue": "12",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "points",
+                  "abbreviation": "PTS",
+                  "displayValue": "94",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "threePointPct",
+                  "abbreviation": "3P%",
+                  "displayValue": "29.6"
+                },
+                {
+                  "name": "threePointFieldGoalsAttempted",
+                  "abbreviation": "3PA",
+                  "displayValue": "27",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "threePointFieldGoalsMade",
+                  "abbreviation": "3PM",
+                  "displayValue": "8",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "avgPoints",
+                  "abbreviation": "PPG",
+                  "displayValue": "94.0",
+                  "rankDisplayValue": "6th"
+                },
+                {
+                  "name": "avgAssists",
+                  "abbreviation": "APG",
+                  "displayValue": "22.0",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "threePointFieldGoalPct",
+                  "abbreviation": "3P%",
+                  "displayValue": "29.6",
+                  "rankDisplayValue": "6th"
+                }
+              ],
+              "winner": null,
+              "leaders": [
+                {
+                  "name": "pointsPerGame",
+                  "displayName": "Points Per Game",
+                  "abbreviation": "PPG",
+                  "leaders": [
+                    {
+                      "displayValue": "20.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Dennis Schroder",
+                        "shortName": "D. Schroder",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3032979"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3032979.png",
+                        "position": {
+                          "abbreviation": "PG"
+                        },
+                        "team": {
+                          "id": "1?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "1?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "reboundsPerGame",
+                  "displayName": "Rebounds Per Game",
+                  "abbreviation": "RPG",
+                  "leaders": [
+                    {
+                      "displayValue": "8.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Paul Millsap",
+                        "shortName": "P. Millsap",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3015"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3015.png",
+                        "position": {
+                          "abbreviation": "PF"
+                        },
+                        "team": {
+                          "id": "1?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "1?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assistsPerGame",
+                  "displayName": "Assists Per Game",
+                  "abbreviation": "APG",
+                  "leaders": [
+                    {
+                      "displayValue": "4.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Dennis Schroder",
+                        "shortName": "D. Schroder",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3032979"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3032979.png",
+                        "position": {
+                          "abbreviation": "PG"
+                        },
+                        "team": {
+                          "id": "1?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "1?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "20.0 PPG, 3.0 RPG, 4.0 APG, 2.0 SPG",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Dennis Schroder",
+                        "shortName": "D. Schroder",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3032979"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3032979.png",
+                        "position": {
+                          "abbreviation": "PG"
+                        },
+                        "team": {
+                          "id": "1?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "1?lang=en"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 2:00 PM EST",
+              "shortDetail": "11\/1 - 2:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            
+          ],
+          "tickets": [
+            {
+              "summary": "663 tickets available from $18",
+              "numberAvailable": 663,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/charlotte-hornets-charlotte-time-warner-cable-arena-11-1-2015-9370874"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-01T19:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827926",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827926",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827926",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827926",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 2:00 PM EST",
+          "shortDetail": "11\/1 - 2:00 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827927",
+      "uid": "s:40~l:46~e:400827927",
+      "date": "2015-11-01T20:30Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827927",
+          "uid": "s:40~l:46~e:400827927~c:400827927",
+          "date": "2015-11-01T20:30Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1824",
+            "fullName": "TD Garden",
+            "address": {
+              "city": "Boston",
+              "state": "MA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "2",
+              "uid": "s:40~l:46~t:2",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "2",
+                "uid": "s:40~l:46~t:2",
+                "location": "Boston",
+                "name": "Celtics",
+                "abbreviation": "BOS",
+                "displayName": "Boston Celtics",
+                "shortDisplayName": "Celtics",
+                "color": "006532",
+                "isActive": true,
+                "venue": {
+                  "id": "1824"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/bos",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/bos",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/bos",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/bos",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/bos",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/bos",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528606",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/boston-celtics-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/bos.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 13,
+                    "previous": 14,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "uid": "s:40~l:46~t:24",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "24",
+                "uid": "s:40~l:46~t:24",
+                "location": "San Antonio",
+                "name": "Spurs",
+                "abbreviation": "SA",
+                "displayName": "San Antonio Spurs",
+                "shortDisplayName": "Spurs",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "780"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/sa",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/sa",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/sa",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/sa",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/sa",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/sa",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528896",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/san-antonio-spurs-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/sa.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 3,
+                    "previous": 3,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": null,
+              "winner": null
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 3:30 PM EST",
+              "shortDetail": "11\/1 - 3:30 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "home",
+              "names": [
+                "CSNN"
+              ]
+            },
+            {
+              "market": "away",
+              "names": [
+                "FSSW"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "1,931 tickets available from $44",
+              "numberAvailable": 1931,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/boston-celtics-boston-td-garden-11-1-2015-9371147"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-01T20:30Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827927",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827927",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827927",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827927",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 3:30 PM EST",
+          "shortDetail": "11\/1 - 3:30 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827928",
+      "uid": "s:40~l:46~e:400827928",
+      "date": "2015-11-01T23:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827928",
+          "uid": "s:40~l:46~e:400827928~c:400827928",
+          "date": "2015-11-01T23:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "3438",
+            "fullName": "AmericanAirlines Arena",
+            "address": {
+              "city": "Miami",
+              "state": "FL"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "14",
+              "uid": "s:40~l:46~t:14",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "14",
+                "uid": "s:40~l:46~t:14",
+                "location": "Miami",
+                "name": "Heat",
+                "abbreviation": "MIA",
+                "displayName": "Miami Heat",
+                "shortDisplayName": "Heat",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3438"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/mia",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/mia",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/mia",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/mia",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/mia",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/mia",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528776",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/miami-heat-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/mia.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 9,
+                    "previous": 10,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": null,
+              "winner": null
+            },
+            {
+              "id": "10",
+              "uid": "s:40~l:46~t:10",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "10",
+                "uid": "s:40~l:46~t:10",
+                "location": "Houston",
+                "name": "Rockets",
+                "abbreviation": "HOU",
+                "displayName": "Houston Rockets",
+                "shortDisplayName": "Rockets",
+                "color": "D40026",
+                "isActive": true,
+                "venue": {
+                  "id": "1394"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/hou",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/hou",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/hou",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/hou",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/hou",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/hou",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528716",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/houston-rockets-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/hou.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 5,
+                    "previous": 6,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 6:00 PM EST",
+              "shortDetail": "11\/1 - 6:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "home",
+              "names": [
+                "SUN"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "1,914 tickets available from $43",
+              "numberAvailable": 1914,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/miami-heat-miami-american-airlines-arena-11-1-2015-9370636"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-01T23:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827928",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827928",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827928",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827928",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 6:00 PM EST",
+          "shortDetail": "11\/1 - 6:00 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827929",
+      "uid": "s:40~l:46~e:400827929",
+      "date": "2015-11-01T23:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827929",
+          "uid": "s:40~l:46~e:400827929~c:400827929",
+          "date": "2015-11-01T23:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1838",
+            "fullName": "Air Canada Centre",
+            "address": {
+              "city": "Toronto",
+              "state": "ON"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "28",
+              "uid": "s:40~l:46~t:28",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "28",
+                "uid": "s:40~l:46~t:28",
+                "location": "Toronto",
+                "name": "Raptors",
+                "abbreviation": "TOR",
+                "displayName": "Toronto Raptors",
+                "shortDisplayName": "Raptors",
+                "color": "CE0F41",
+                "isActive": true,
+                "venue": {
+                  "id": "1838"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/tor",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/tor",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/tor",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/tor",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/tor",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/tor",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528906",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/toronto-raptors-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/tor.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 12,
+                    "previous": 13,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "uid": "s:40~l:46~t:15",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "15",
+                "uid": "s:40~l:46~t:15",
+                "location": "Milwaukee",
+                "name": "Bucks",
+                "abbreviation": "MIL",
+                "displayName": "Milwaukee Bucks",
+                "shortDisplayName": "Bucks",
+                "color": "003813",
+                "isActive": true,
+                "venue": {
+                  "id": "2099"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/mil",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/mil",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/mil",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/mil",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/mil",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/mil",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528786",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/milwaukee-bucks-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/mil.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 14,
+                    "previous": 12,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": null,
+              "winner": null
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 6:00 PM EST",
+              "shortDetail": "11\/1 - 6:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "away",
+              "names": [
+                "FSWI"
+              ]
+            },
+            {
+              "market": "national",
+              "names": [
+                "NBATV"
+              ]
+            },
+            {
+              "market": "home",
+              "names": [
+                "TSN2"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2,184 tickets available from $22",
+              "numberAvailable": 2184,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/toronto-raptors-toronto-air-canada-centre-11-1-2015-9371230"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-01T23:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827929",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827929",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827929",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827929",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 6:00 PM EST",
+          "shortDetail": "11\/1 - 6:00 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827930",
+      "uid": "s:40~l:46~e:400827930",
+      "date": "2015-11-02T00:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827930",
+          "uid": "s:40~l:46~e:400827930~c:400827930",
+          "date": "2015-11-02T00:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1847",
+            "fullName": "United Center",
+            "address": {
+              "city": "Chicago",
+              "state": "IL"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "4",
+              "uid": "s:40~l:46~t:4",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "4",
+                "uid": "s:40~l:46~t:4",
+                "location": "Chicago",
+                "name": "Bulls",
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bulls",
+                "shortDisplayName": "Bulls",
+                "color": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "1847"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/chi",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/chi",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/chi",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/chi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/chi",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/chi",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528646",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/chicago-bulls-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/chi.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 10,
+                    "previous": 11,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": [
+                {
+                  "name": "rebounds",
+                  "abbreviation": "REB",
+                  "displayValue": "47",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "avgRebounds",
+                  "abbreviation": "RPG",
+                  "displayValue": "47.0",
+                  "rankDisplayValue": "4th"
+                },
+                {
+                  "name": "assists",
+                  "abbreviation": "AST",
+                  "displayValue": "13",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "fieldGoalsAttempted",
+                  "abbreviation": "FGA",
+                  "displayValue": "87",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "fieldGoalsMade",
+                  "abbreviation": "FGM",
+                  "displayValue": "37",
+                  "rankDisplayValue": "2nd"
+                },
+                {
+                  "name": "fieldGoalPct",
+                  "abbreviation": "FG%",
+                  "displayValue": "42.5"
+                },
+                {
+                  "name": "freeThrowPct",
+                  "abbreviation": "FT%",
+                  "displayValue": "69.6"
+                },
+                {
+                  "name": "freeThrowsAttempted",
+                  "abbreviation": "FTA",
+                  "displayValue": "23",
+                  "rankDisplayValue": "2nd"
+                },
+                {
+                  "name": "freeThrowsMade",
+                  "abbreviation": "FTM",
+                  "displayValue": "16",
+                  "rankDisplayValue": "2nd"
+                },
+                {
+                  "name": "points",
+                  "abbreviation": "PTS",
+                  "displayValue": "97",
+                  "rankDisplayValue": "2nd"
+                },
+                {
+                  "name": "threePointPct",
+                  "abbreviation": "3P%",
+                  "displayValue": "36.8"
+                },
+                {
+                  "name": "threePointFieldGoalsAttempted",
+                  "abbreviation": "3PA",
+                  "displayValue": "19",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "threePointFieldGoalsMade",
+                  "abbreviation": "3PM",
+                  "displayValue": "7",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "avgPoints",
+                  "abbreviation": "PPG",
+                  "displayValue": "97.0",
+                  "rankDisplayValue": "3rd"
+                },
+                {
+                  "name": "avgAssists",
+                  "abbreviation": "APG",
+                  "displayValue": "13.0",
+                  "rankDisplayValue": "6th"
+                },
+                {
+                  "name": "threePointFieldGoalPct",
+                  "abbreviation": "3P%",
+                  "displayValue": "36.8",
+                  "rankDisplayValue": "2nd"
+                }
+              ],
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "leaders": [
+                {
+                  "name": "pointsPerGame",
+                  "displayName": "Points Per Game",
+                  "abbreviation": "PPG",
+                  "leaders": [
+                    {
+                      "displayValue": "19.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Nikola Mirotic",
+                        "shortName": "N. Mirotic",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/6459"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/6459.png",
+                        "position": {
+                          "abbreviation": "PF"
+                        },
+                        "team": {
+                          "id": "4?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "4?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "reboundsPerGame",
+                  "displayName": "Rebounds Per Game",
+                  "abbreviation": "RPG",
+                  "leaders": [
+                    {
+                      "displayValue": "10.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Taj Gibson",
+                        "shortName": "T. Gibson",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3986"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3986.png",
+                        "position": {
+                          "abbreviation": "PF"
+                        },
+                        "team": {
+                          "id": "4?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "4?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assistsPerGame",
+                  "displayName": "Assists Per Game",
+                  "abbreviation": "APG",
+                  "leaders": [
+                    {
+                      "displayValue": "5.0",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Derrick Rose",
+                        "shortName": "D. Rose",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/3456"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/3456.png",
+                        "position": {
+                          "abbreviation": "PG"
+                        },
+                        "team": {
+                          "id": "4?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "4?lang=en"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "rating",
+                  "displayName": "Rating",
+                  "abbreviation": "RAT",
+                  "leaders": [
+                    {
+                      "displayValue": "19.0 PPG, 9.0 RPG, 1.0 APG, 1.0 SPG",
+                      "value": null,
+                      "athlete": {
+                        "displayName": "Nikola Mirotic",
+                        "shortName": "N. Mirotic",
+                        "links": [
+                          {
+                            "href": "http:\/\/espn.go.com\/nba\/player\/_\/id\/6459"
+                          }
+                        ],
+                        "headshot": "http:\/\/a.espncdn.com\/i\/headshots\/nba\/players\/full\/6459.png",
+                        "position": {
+                          "abbreviation": "PF"
+                        },
+                        "team": {
+                          "id": "4?lang=en"
+                        }
+                      },
+                      "team": {
+                        "id": "4?lang=en"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "19",
+              "uid": "s:40~l:46~t:19",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "19",
+                "uid": "s:40~l:46~t:19",
+                "location": "Orlando",
+                "name": "Magic",
+                "abbreviation": "ORL",
+                "displayName": "Orlando Magic",
+                "shortDisplayName": "Magic",
+                "color": "0860A8",
+                "isActive": true,
+                "venue": {
+                  "id": "3432"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/orl",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/orl",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/orl",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/orl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/orl",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/orl",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528846",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/orlando-magic-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/orl.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 23,
+                    "previous": 23,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 7:00 PM EST",
+              "shortDetail": "11\/1 - 7:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "away",
+              "names": [
+                "FSFL"
+              ]
+            },
+            {
+              "market": "home",
+              "names": [
+                "WGN"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "3,050 tickets available from $40",
+              "numberAvailable": 3050,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/chicago-bulls-chicago-united-center-11-1-2015-9370451"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-02T00:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827930",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827930",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827930",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827930",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 7:00 PM EST",
+          "shortDetail": "11\/1 - 7:00 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827931",
+      "uid": "s:40~l:46~e:400827931",
+      "date": "2015-11-02T00:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827931",
+          "uid": "s:40~l:46~e:400827931~c:400827931",
+          "date": "2015-11-02T00:00Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "2559",
+            "fullName": "Chesapeake Energy Arena",
+            "address": {
+              "city": "Oklahoma City",
+              "state": "OK"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "25",
+              "uid": "s:40~l:46~t:25",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "25",
+                "uid": "s:40~l:46~t:25",
+                "location": "Oklahoma City",
+                "name": "Thunder",
+                "abbreviation": "OKC",
+                "displayName": "Oklahoma City Thunder",
+                "shortDisplayName": "Thunder",
+                "color": "C67C03",
+                "isActive": true,
+                "venue": {
+                  "id": "2559"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/okc",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/okc",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/okc",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/okc",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/okc",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/okc",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528836",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/oklahoma-city-thunder-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/okc.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 4,
+                    "previous": 5,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": null,
+              "winner": null
+            },
+            {
+              "id": "7",
+              "uid": "s:40~l:46~t:7",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "7",
+                "uid": "s:40~l:46~t:7",
+                "location": "Denver",
+                "name": "Nuggets",
+                "abbreviation": "DEN",
+                "displayName": "Denver Nuggets",
+                "shortDisplayName": "Nuggets",
+                "color": "0860A8",
+                "isActive": true,
+                "venue": {
+                  "id": "892"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/den",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/den",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/den",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/den",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/den",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/den",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528676",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/denver-nuggets-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/den.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 26,
+                    "previous": 27,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "statistics": null,
+              "winner": null
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 7:00 PM EST",
+              "shortDetail": "11\/1 - 7:00 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "away",
+              "names": [
+                "ALT"
+              ]
+            },
+            {
+              "market": "home",
+              "names": [
+                "FSOK"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "633 tickets available from $16",
+              "numberAvailable": 633,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/oklahoma-city-thunder-oklahoma-city-chesapeake-arena-11-1-2015-9371505"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-02T00:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827931",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827931",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827931",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827931",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 7:00 PM EST",
+          "shortDetail": "11\/1 - 7:00 PM EST"
+        }
+      }
+    },
+    {
+      "id": "400827932",
+      "uid": "s:40~l:46~e:400827932",
+      "date": "2015-11-02T02:30Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400827932",
+          "uid": "s:40~l:46~e:400827932~c:400827932",
+          "date": "2015-11-02T02:30Z",
+          "attendance": 0,
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1841",
+            "fullName": "STAPLES Center",
+            "address": {
+              "city": "Los Angeles",
+              "state": "CA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "13",
+              "uid": "s:40~l:46~t:13",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "13",
+                "uid": "s:40~l:46~t:13",
+                "location": "Los Angeles",
+                "name": "Lakers",
+                "abbreviation": "LAL",
+                "displayName": "Los Angeles Lakers",
+                "shortDisplayName": "Lakers",
+                "color": "542582",
+                "isActive": true,
+                "venue": {
+                  "id": "1841"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/lal",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/lal",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/lal",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/lal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/lal",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/lal",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528756",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/los-angeles-lakers-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/lal.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 27,
+                    "previous": 28,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "uid": "s:40~l:46~t:6",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "6",
+                "uid": "s:40~l:46~t:6",
+                "location": "Dallas",
+                "name": "Mavericks",
+                "abbreviation": "DAL",
+                "displayName": "Dallas Mavericks",
+                "shortDisplayName": "Mavericks",
+                "color": "0C479D",
+                "isActive": true,
+                "venue": {
+                  "id": "516"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/_\/name\/dal",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/roster\/_\/name\/dal",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stats\/_\/name\/dal",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/schedule\/_\/name\/dal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/photos\/_\/name\/dal",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stadium",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/espn.go.com\/nba\/team\/stadium\/_\/name\/dal",
+                    "text": "Stadium",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "shop",
+                      "desktop"
+                    ],
+                    "href": "http:\/\/www.dickssportinggoods.com\/category\/index.jsp?categoryId=15528666",
+                    "text": "Shop",
+                    "isExternal": true,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https:\/\/www.stubhub.com\/dallas-mavericks-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http:\/\/a.espncdn.com\/i\/teamlogos\/nba\/500\/scoreboard\/dal.png"
+              },
+              "score": "0",
+              "ranks": [
+                {
+                  "name": "ESPN.com Power Rankings",
+                  "shortName": "Power Rankings",
+                  "type": "power",
+                  "headline": "2016 ESPN.com Power Rankings: Week 0",
+                  "shortHeadline": "2016 Power Rankings: Week 0",
+                  "rank": {
+                    "current": 21,
+                    "previous": 18,
+                    "record": {
+                      "summary": "0-0"
+                    }
+                  }
+                }
+              ],
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Total",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            
+          ],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "Sun, November 1st at 9:30 PM EST",
+              "shortDetail": "11\/1 - 9:30 PM EST"
+            }
+          },
+          "broadcasts": [
+            {
+              "market": "away",
+              "names": [
+                "FSSW"
+              ]
+            },
+            {
+              "market": "home",
+              "names": [
+                "TWC SN"
+              ]
+            }
+          ],
+          "tickets": [
+            {
+              "summary": "2,285 tickets available from $51",
+              "numberAvailable": 2285,
+              "links": [
+                {
+                  "href": "http:\/\/www.stubhub.com\/los-angeles-lakers-los-angeles-staples-center-11-1-2015-9370606"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-02T02:30Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/now?gameId=400827932",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/conversation?gameId=400827932",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/tickets?gameId=400827932",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http:\/\/espn.go.com\/nba\/video?gameId=400827932",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "Sun, November 1st at 9:30 PM EST",
+          "shortDetail": "11\/1 - 9:30 PM EST"
+        }
+      }
+    }
+  ]
+}

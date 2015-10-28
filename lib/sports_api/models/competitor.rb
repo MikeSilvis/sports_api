@@ -10,7 +10,8 @@ class SportsApi::Model::Competitor
                 :record,
                 :id,
                 :linescores,
-                :rank
+                :rank,
+                :conference_id
 
   def rank=(rank)
     @rank = rank == 99 ? nil : rank.to_s
