@@ -14,7 +14,8 @@ describe SportsApi::Fetcher::Score::NCB do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
         it { expect(event.date.to_date).to eq(Date.new(2015, 4, 07)) } #UTC time places this game on the 28th
-        it { expect(event.competitors.first.name).to eq('Duke') }
+        it { expect(event.competitors.first.location).to eq('Duke') }
+        it { expect(event.competitors.first.name).to eq('Blue Devils') }
         it { expect(event.competitors.first.record.summary).to eq('29-4') }
         it { expect(event.score).to eq('68 - 63') }
         it { expect(event.status.final?).to be_truthy }
@@ -30,7 +31,9 @@ describe SportsApi::Fetcher::Score::NCB do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.status.detail).to eq("TBD") }
         it { expect(event.date.to_date).to eq(Date.new(2015, 11, 13)) }
-        it { expect(event.competitors.first.name).to eq('Auburn') }
+        it { expect(event.competitors.first.name).to eq('Tigers') }
+        it { expect(event.competitors.first.location).to eq('Auburn') }
+        it { expect(event.competitors.first.conference_id).to eq('23') }
         it { expect(event.competitors.first.is_active).to eq(true) }
       end
     end
