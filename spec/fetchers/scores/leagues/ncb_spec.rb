@@ -31,7 +31,7 @@ describe SportsApi::Fetcher::Score::NCB do
         it { expect(event.status.detail).to eq("TBD") }
         it { expect(event.date.to_date).to eq(Date.new(2015, 11, 13)) }
         it { expect(event.competitors.first.name).to eq('Auburn') }
-        it { expect(event.competitors.first.division_one).to eq(true) }
+        it { expect(event.competitors.first.is_active).to eq(true) }
       end
     end
   end

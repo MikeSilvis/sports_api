@@ -12,7 +12,7 @@ class SportsApi::Model::Competitor
                 :linescores,
                 :rank,
                 :conference_id,
-                :division_one
+                :is_active
 
   def rank=(rank)
     @rank = rank == 99 ? nil : rank.to_s
