@@ -10,6 +10,8 @@ class SportsApi::Fetcher::Score
       SportsApi::Fetcher::Score::NCF.find(date)
     when SportsApi::NBA
       SportsApi::Fetcher::Score::NBA.find(date)
+    when SportsApi::NCB
+      SportsApi::Fetcher::Score::NCB.find(date)
     when SportsApi::MLB
       SportsApi::Fetcher::Score::MLB.find(date)
     end

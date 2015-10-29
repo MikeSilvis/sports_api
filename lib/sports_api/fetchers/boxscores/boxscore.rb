@@ -18,6 +18,8 @@ class SportsApi::Fetcher::Boxscore
       SportsApi::Fetcher::Boxscore::NCF.find(gameid)
     when SportsApi::NBA
       SportsApi::Fetcher::Boxscore::NBA.find(gameid)
+    when SportsApi::NCB
+      SportsApi::Fetcher::Boxscore::NCB.find(gameid)
     when SportsApi::MLB
       SportsApi::Fetcher::Boxscore::MLB.find(gameid)
     end

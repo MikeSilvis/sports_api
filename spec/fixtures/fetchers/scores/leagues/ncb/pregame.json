@@ -1,0 +1,462 @@
+{
+  "leagues": [
+    {
+      "id": "41",
+      "uid": "s:40~l:41",
+      "name": "NCAA Men's Basketball",
+      "abbreviation": "NCAAM",
+      "midsizeName": "NCAA Basketball",
+      "calendarType": "day",
+      "calendar": [
+        "2015-11-13T08:00Z",
+        "2015-11-14T08:00Z",
+        "2015-11-15T08:00Z",
+        "2015-11-16T08:00Z",
+        "2015-11-17T08:00Z",
+        "2015-11-18T08:00Z",
+        "2015-11-19T08:00Z",
+        "2015-11-20T08:00Z",
+        "2015-11-21T08:00Z",
+        "2015-11-22T08:00Z",
+        "2015-11-23T08:00Z",
+        "2015-11-24T08:00Z",
+        "2015-11-25T08:00Z",
+        "2015-11-26T08:00Z",
+        "2015-11-27T08:00Z",
+        "2015-11-28T08:00Z",
+        "2015-11-29T08:00Z",
+        "2015-11-30T08:00Z",
+        "2015-12-01T08:00Z",
+        "2015-12-02T08:00Z",
+        "2015-12-03T08:00Z",
+        "2015-12-04T08:00Z",
+        "2015-12-05T08:00Z",
+        "2015-12-06T08:00Z",
+        "2015-12-07T08:00Z",
+        "2015-12-08T08:00Z",
+        "2015-12-09T08:00Z",
+        "2015-12-10T08:00Z",
+        "2015-12-11T08:00Z",
+        "2015-12-12T08:00Z",
+        "2015-12-13T08:00Z",
+        "2015-12-14T08:00Z",
+        "2015-12-15T08:00Z",
+        "2015-12-16T08:00Z",
+        "2015-12-17T08:00Z",
+        "2015-12-18T08:00Z",
+        "2015-12-19T08:00Z",
+        "2015-12-20T08:00Z",
+        "2015-12-21T08:00Z",
+        "2015-12-22T08:00Z",
+        "2015-12-23T08:00Z",
+        "2015-12-26T08:00Z",
+        "2015-12-27T08:00Z",
+        "2015-12-28T08:00Z",
+        "2015-12-29T08:00Z",
+        "2015-12-30T08:00Z",
+        "2015-12-31T08:00Z",
+        "2016-01-01T08:00Z",
+        "2016-01-02T08:00Z",
+        "2016-01-03T08:00Z",
+        "2016-01-04T08:00Z",
+        "2016-01-05T08:00Z",
+        "2016-01-06T08:00Z",
+        "2016-01-07T08:00Z",
+        "2016-01-08T08:00Z",
+        "2016-01-09T08:00Z",
+        "2016-01-10T08:00Z",
+        "2016-01-11T08:00Z",
+        "2016-01-12T08:00Z",
+        "2016-01-13T08:00Z",
+        "2016-01-14T08:00Z",
+        "2016-01-15T08:00Z",
+        "2016-01-16T08:00Z",
+        "2016-01-17T08:00Z",
+        "2016-01-18T08:00Z",
+        "2016-01-19T08:00Z",
+        "2016-01-20T08:00Z",
+        "2016-01-21T08:00Z",
+        "2016-01-22T08:00Z",
+        "2016-01-23T08:00Z",
+        "2016-01-24T08:00Z",
+        "2016-01-25T08:00Z",
+        "2016-01-26T08:00Z",
+        "2016-01-27T08:00Z",
+        "2016-01-28T08:00Z",
+        "2016-01-29T08:00Z",
+        "2016-01-30T08:00Z",
+        "2016-01-31T08:00Z",
+        "2016-02-01T08:00Z",
+        "2016-02-02T08:00Z",
+        "2016-02-03T08:00Z",
+        "2016-02-04T08:00Z",
+        "2016-02-05T08:00Z",
+        "2016-02-06T08:00Z",
+        "2016-02-07T08:00Z",
+        "2016-02-08T08:00Z",
+        "2016-02-09T08:00Z",
+        "2016-02-10T08:00Z",
+        "2016-02-11T08:00Z",
+        "2016-02-12T08:00Z",
+        "2016-02-13T08:00Z",
+        "2016-02-14T08:00Z",
+        "2016-02-15T08:00Z",
+        "2016-02-16T08:00Z",
+        "2016-02-17T08:00Z",
+        "2016-02-18T08:00Z",
+        "2016-02-19T08:00Z",
+        "2016-02-20T08:00Z",
+        "2016-02-21T08:00Z",
+        "2016-02-22T08:00Z",
+        "2016-02-23T08:00Z",
+        "2016-02-24T08:00Z",
+        "2016-02-25T08:00Z",
+        "2016-02-26T08:00Z",
+        "2016-02-27T08:00Z",
+        "2016-02-28T08:00Z",
+        "2016-02-29T08:00Z",
+        "2016-03-01T08:00Z",
+        "2016-03-02T08:00Z",
+        "2016-03-03T08:00Z",
+        "2016-03-04T08:00Z",
+        "2016-03-05T08:00Z",
+        "2016-03-06T08:00Z",
+        "2016-03-08T08:00Z"
+      ]
+    }
+  ],
+  "groups": [
+    "50"
+  ],
+  "events": [
+    {
+      "id": "400814239",
+      "uid": "s:40~l:41~e:400814239",
+      "date": "2015-11-13T05:00Z",
+      "season": {
+        "year": 2016,
+        "type": 2
+      },
+      "competitions": [
+        {
+          "id": "400814239",
+          "uid": "s:40~l:41~e:400814239~c:400814239",
+          "date": "2015-11-13T05:00Z",
+          "attendance": 0,
+          "timeValid": false,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "venue": {
+            "id": "1953",
+            "fullName": "Auburn Arena",
+            "address": {
+              "city": "Auburn",
+              "state": "Alabama"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "2",
+              "uid": "s:40~l:41~t:2",
+              "type": "team",
+              "homeAway": "home",
+              "team": {
+                "id": "2",
+                "uid": "s:40~l:41~t:2",
+                "location": "Auburn",
+                "name": "Tigers",
+                "abbreviation": "AUB",
+                "displayName": "Auburn Tigers",
+                "shortDisplayName": "Auburn",
+                "color": "03244d",
+                "isActive": true,
+                "venue": {
+                  "id": "1953"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/_/id/2",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/roster/_/id/2",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/stats/_/id/2",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/schedule/_/id/2",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/photos/_/id/2",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https://www.stubhub.com/auburn-tigers-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+                "conferenceId": "23"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "type": "season",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "home record",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "away record",
+                  "abbreviation": "Away",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "uid": "s:40~l:41~t:5",
+              "type": "team",
+              "homeAway": "away",
+              "team": {
+                "id": "5",
+                "uid": "s:40~l:41~t:5",
+                "location": "UAB",
+                "name": "Blazers",
+                "abbreviation": "UAB",
+                "displayName": "UAB Blazers",
+                "shortDisplayName": "UAB",
+                "color": "054338",
+                "isActive": true,
+                "venue": {
+                  "id": "2155"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/_/id/5",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/roster/_/id/5",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/stats/_/id/5",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/schedule/_/id/5",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "photos",
+                      "desktop"
+                    ],
+                    "href": "http://espn.go.com/ncb/team/photos/_/id/5",
+                    "text": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "tickets",
+                      "desktop"
+                    ],
+                    "href": "https://www.stubhub.com/uab-blazers-tickets",
+                    "text": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "http://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+                "conferenceId": "11"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": null,
+              "winner": null,
+              "records": [
+                {
+                  "name": "Season",
+                  "abbreviation": "Season",
+                  "type": "season",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "home record",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "away record",
+                  "abbreviation": "Away",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "description": "Scheduled",
+              "detail": "11/13 - TBD",
+              "shortDetail": "TBD"
+            }
+          },
+          "broadcasts": [],
+          "tickets": [
+            {
+              "summary": "195 tickets available from $48",
+              "numberAvailable": 195,
+              "links": [
+                {
+                  "href": "http://www.stubhub.com/auburn-vs-uab-11-13-2015-9370297"
+                }
+              ]
+            }
+          ],
+          "startDate": "2015-11-13T05:00Z"
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "conversation",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/mens-college-basketball/conversation?gameId=400814239",
+          "text": "Conversation",
+          "shortText": "Conversation",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/mens-college-basketball/tickets?gameId=400814239",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop"
+          ],
+          "href": "http://espn.go.com/mens-college-basketball/video?gameId=400814239",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "description": "Scheduled",
+          "detail": "11/13 - TBD",
+          "shortDetail": "TBD"
+        }
+      }
+    }
+  ]
+}
