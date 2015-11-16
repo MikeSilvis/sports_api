@@ -6,7 +6,7 @@ describe SportsApi::Fetcher::Score::NCB do
       let(:date) { Date.new(2015, 4, 07) }
       let(:find) { SportsApi::Fetcher::Score::NCB.find(date) }
       let(:json_stub) { StubbedJson.get('postgame.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::NCB).to receive(:get).with('basketball', 'mens-college-basketball', dates: 20150407, limit: 200).and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::NCB).to receive(:get).with('basketball', 'mens-college-basketball', dates: 20150407, limit: 200, groups: 50).and_return(json_stub) }
       context 'basic league info' do
         it { expect(find.calendar.size).to eq(140) }
         it { expect(find.name).to eq("NCAA Men's Basketball") }
@@ -26,7 +26,7 @@ describe SportsApi::Fetcher::Score::NCB do
       let(:date) { Date.new(2015, 11, 13) }
       let(:find) { SportsApi::Fetcher::Score::NCB.find(date) }
       let(:json_stub) { StubbedJson.get('pregame.json') }
-      before { expect_any_instance_of(SportsApi::Fetcher::Score::NCB).to receive(:get).with('basketball', 'mens-college-basketball', dates: 20151113, limit: 200).and_return(json_stub) }
+      before { expect_any_instance_of(SportsApi::Fetcher::Score::NCB).to receive(:get).with('basketball', 'mens-college-basketball', dates: 20151113, limit: 200, groups: 50).and_return(json_stub) }
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.status.detail).to eq("TBD") }
