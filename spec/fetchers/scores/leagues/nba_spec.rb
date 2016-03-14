@@ -33,6 +33,7 @@ describe SportsApi::Fetcher::Score::NBA do
         it { expect(event.date.to_date).to eq(Date.new(2015, 11, 01)) }
         it { expect(event.competitors.first.location).to eq('Charlotte') }
         it { expect(event.competitors.first.name).to eq('Hornets') }
+        # it { expect(event.competitors.first.power_rank).to eq(22) }
       end
     end
   end

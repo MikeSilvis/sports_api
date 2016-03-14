@@ -23,6 +23,6 @@ class SportsApi::Fetcher::Score::NCB < SportsApi::Fetcher::Score
   end
 
   def json
-    @json ||= get('basketball', 'mens-college-basketball', dates: date.to_s.gsub(/[^\d]+/, '').to_i, limit: 200, groups: 50)
+    @json ||= get('basketball', 'mens-college-basketball', dates: date.to_s.gsub(/[^\d]+/, '').to_i, limit: 200, groups: 100)
   end
 end

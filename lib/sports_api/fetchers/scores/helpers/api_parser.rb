@@ -96,6 +96,7 @@ module SportsApi::Fetcher::Score::ApiParser
 
         competitor.record = generate_record((competitor_json['records'] || []).first)
         competitor.rank = (competitor_json['curatedRank'] || {})['current']
+        # competitor.power_rank = (competitor_json['ranks'] || {})['rank']['current']
       end
     end
   end
