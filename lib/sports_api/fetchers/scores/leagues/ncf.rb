@@ -22,27 +22,15 @@ class SportsApi::Fetcher::Score::NCF < SportsApi::Fetcher::Score
     generate_league
   end
 
-  def league
+  def self.league
     SportsApi::NCF
   end
 
-  private
-
-  def self.date_list(date)
-    date_obj = SportsApi::Fetcher::Calendar::NCF.find.detect do |list|
-      (list.start_date < date) && (date < list.end_date)
-    end
-
-    ## if no date found, try removing a day
-    unless date_obj
-      date = date - 1
-      return SportsApi::Fetcher::Calendar::NCF.find.detect do |list|
-        (list.start_date <= date) && (date <= list.end_date)
-      end
-    end
-
-    date_obj
+  def league
+    self.class.league
   end
+
+  private
 
   def generate_calendar(calendar_json)
     generate_calendar_list(calendar_json)

@@ -38,4 +38,3 @@ describe SportsApi::Fetcher::Score::NBA do
     end
   end
 end
-
