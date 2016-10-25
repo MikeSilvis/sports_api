@@ -14,6 +14,7 @@ describe SportsApi::Fetcher::Score::NBA do
       context 'event info' do
         let(:event) { find.events.detect { |event| event.status.final? } }
         it { expect(event.date.to_date).to eq(Date.new(2015, 10, 28)) } #UTC time places this game on the 28th
+        it { expect(event.competitors.first.location).to eq('Atlanta') }
         it { expect(event.competitors.first.name).to eq('Hawks') }
         it { expect(event.competitors.first.record.summary).to eq('0-1') }
         it { expect(event.score).to eq('94 - 106') }
@@ -30,7 +31,9 @@ describe SportsApi::Fetcher::Score::NBA do
         let(:event) { find.events.detect { |event| event.status.pregame? } }
         it { expect(event.status.detail).to eq("11/1 - 2:00 PM EST") }
         it { expect(event.date.to_date).to eq(Date.new(2015, 11, 01)) }
+        it { expect(event.competitors.first.location).to eq('Charlotte') }
         it { expect(event.competitors.first.name).to eq('Hornets') }
+        # it { expect(event.competitors.first.power_rank).to eq(22) }
       end
     end
   end

@@ -46,7 +46,7 @@ describe SportsApi::Fetcher::Score::MLB do
         it { expect(event.status.display_clock).to eq('0:00') }
         it { expect(event.status.period).to eq('0') }
         it { expect(event.status.detail).to eq("8/10 - 7:10 PM EDT") }
-        it { expect(event.status.start_time).to eq(Time.new(2015, 8, 10, 16, 10, 0, '-07:00')) }
+        it { expect(event.status.start_time).to eq(Time.new(2016, 8, 10, 19, 10, 0, '-04:00')) }
       end
     end
   end

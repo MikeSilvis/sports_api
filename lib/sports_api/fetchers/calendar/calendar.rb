@@ -7,6 +7,8 @@ class SportsApi::Fetcher::Calendar
       SportsApi::Fetcher::Calendar::NFL.find
     when SportsApi::NBA
       SportsApi::Fetcher::Calendar::NBA.find
+    when SportsApi::NCB
+      SportsApi::Fetcher::Calendar::NCB.find
     when SportsApi::MLB
       SportsApi::Fetcher::Calendar::MLB.find
     end
