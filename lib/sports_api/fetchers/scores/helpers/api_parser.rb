@@ -59,7 +59,8 @@ module SportsApi::Fetcher::Score::ApiParser
         event.competitors = generate_competitors(event_json)
         event.headline = generate_headline(event_json['competitions'].first['headlines'].to_a.first.to_h, event)
 
-        event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).join("/")
+        # event.channel = (((event_json['competitions'].first['broadcasts'] || []).first || {})['names'] || []).join("/")
+        event.channel = event_json['competitions'].first['broadcasts'][0..2].map { |e| e["names"] }.join("/")
         event.neutral = event_json['competitions'].first['neutralSite']
       end
     end
@@ -96,7 +97,6 @@ module SportsApi::Fetcher::Score::ApiParser
 
         competitor.record = generate_record((competitor_json['records'] || []).first)
         competitor.rank = (competitor_json['curatedRank'] || {})['current']
-        # competitor.power_rank = (competitor_json['ranks'] || {})['rank']['current']
       end
     end
   end
