@@ -736,7 +736,24 @@
             }
           },
           "broadcasts": [
-            
+            {
+              "market": "national",
+              "names": [
+                "ESPN"
+              ]
+            },
+            {
+              "market": "away",
+              "names": [
+                "FSOH"
+              ]
+            },
+            {
+              "market": "home",
+              "names": [
+                "Sportsnet One"
+              ]
+            }
           ],
           "tickets": [
             {
